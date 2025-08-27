@@ -1,5 +1,5 @@
 Gender,Age,Academic_Level,Residence,Allowance,Distance_to_Facility,Walking,Football,Basketball,Volleyball,Gym,Badminton,Enjoy_Rec,Health_Benefit,Academic_Focus,Location_Ease,Too_Expensive,Unsafe,Friend_Motivation,Facility_Football,Facility_Basketball,Facility_Gym,Facility_Tennis,Facility_Badminton,Facility_Other,Travel_Time,Facility_Condition,Hours_Convenient,NonUse_TooFar,NonUse_Cost,NonUse_PoorCondition,NonUse_NoInterest,NonUse_Safety,NonUse_LackTime,Benefit_Fitness,Benefit_Mental,Benefit_Social,Barrier_Time,Barrier_Cost,Barrier_Distance,Barrier_Safety,Barrier_Condition,What_would_encourage_you_to_participate_more?,Additional_Comments
-Male,20-24,400,On-campus,"60,000+",11–20 min,5,2,2,2,3,5,3,5,2,2,3,3,5,1,1,1,1,0,Music hall,11–20 min,Poor,Yes,1,1,1,0,1,0,5,2,4,5,5,5,2,4,Build more shaded walkways,Great work so far
+Male,20-24,400,On-campus,"60,000+",11–20 min,5,2,2,2,3,5,3,5,2,2,3,3,5,1,1,1,1,0,None,11–20 min,Poor,Yes,1,1,1,0,1,0,5,2,4,5,5,5,2,4,Build more shaded walkways,Great work so far
 Male,20-24,400,Off-campus,"<20,000",11–20 min,2,5,5,5,4,4,5,2,2,2,2,5,5,0,1,0,1,0,Swimming pool,6–10 min,Excellent,Yes,1,0,1,1,0,1,3,2,1,1,4,5,1,1,More organized competitions,Facilities are fine
 Male,20-24,400,On-campus,"20,000–39,999",≤5 min,4,5,3,5,2,5,3,3,2,2,1,5,4,1,1,0,0,1,Swimming pool,≤5 min,Poor,Yes,1,1,0,0,0,0,5,4,2,1,2,4,2,2,More basketball courts would help,Facilities are fine
 Male,30+,300,Off-campus,"60,000+",>20 min,3,3,2,1,4,2,4,3,4,5,2,1,1,0,1,1,0,0,None,≤5 min,Good,Yes,1,1,0,0,0,0,1,2,4,5,3,3,3,3,Swimming pool should be added,Not satisfied with gym hours
@@ -28,10 +28,10 @@ Female,25-29,300,Off-campus,"40,000–59,999",11–20 min,4,4,2,5,3,3,1,2,4,2,3,
 Female,20-24,400,Off-campus,"60,000+",6–10 min,2,5,3,5,1,4,2,2,5,2,4,3,5,0,0,0,1,0,Library garden,6–10 min,Good,Yes,0,1,0,1,0,1,4,4,2,4,4,1,5,3,More organized competitions,Not satisfied with gym hours
 Male,20-24,300,Off-campus,"40,000–59,999",11–20 min,2,4,4,2,4,4,4,2,2,3,1,4,1,0,1,0,0,0,None,11–20 min,Fair,No,0,1,1,1,1,1,4,2,3,2,2,3,5,2,Build more shaded walkways,Nothing else
 Male,20-24,400,On-campus,"40,000–59,999",11–20 min,4,5,4,5,5,4,2,1,2,2,2,1,4,1,0,0,0,1,Library garden,>20 min,Fair,No,1,0,1,0,0,0,1,3,5,5,4,5,3,2,Safer environment for evening activities,Safety is a concern at night
-Female,20-24,400,On-campus,"<20,000",6–10 min,4,5,4,5,2,3,5,3,4,1,4,3,4,1,1,0,0,0,Music hall,11–20 min,Poor,No,0,0,1,0,0,1,3,4,1,5,3,5,4,4,Build more shaded walkways,Not satisfied with gym hours
-Male,Below 20,100,Off-campus,"40,000–59,999",6–10 min,3,4,3,3,1,4,2,1,2,1,1,1,5,1,1,1,1,0,Music hall,≤5 min,Fair,No,1,0,0,1,0,0,5,2,2,2,3,1,4,4,Better lighting around the football field,No comment
+Female,20-24,400,On-campus,"<20,000",6–10 min,4,5,4,5,2,3,5,3,4,1,4,3,4,1,1,0,0,0,None,11–20 min,Poor,No,0,0,1,0,0,1,3,4,1,5,3,5,4,4,Build more shaded walkways,Not satisfied with gym hours
+Male,Below 20,100,Off-campus,"40,000–59,999",6–10 min,3,4,3,3,1,4,2,1,2,1,1,1,5,1,1,1,1,0,None,≤5 min,Fair,No,1,0,0,1,0,0,5,2,2,2,3,1,4,4,Better lighting around the football field,No comment
 Male,Below 20,200,On-campus,"<20,000",>20 min,4,5,4,3,4,1,2,5,2,1,5,3,2,0,0,0,0,1,Swimming pool,6–10 min,Poor,No,0,0,0,1,1,1,4,2,4,3,5,5,1,3,More basketball courts would help,Needs more equipment
-Male,25-29,400,Off-campus,"<20,000",6–10 min,4,3,2,4,2,3,1,1,5,5,1,4,2,1,1,0,0,1,Music hall,≤5 min,Excellent,No,0,1,0,0,0,0,4,1,4,5,4,2,4,2,Safer environment for evening activities,Nothing else
+Male,25-29,400,Off-campus,"<20,000",6–10 min,4,3,2,4,2,3,1,1,5,5,1,4,2,1,1,0,0,1,None,≤5 min,Excellent,No,0,1,0,0,0,0,4,1,4,5,4,2,4,2,Safer environment for evening activities,Nothing else
 Female,Below 20,100,On-campus,"20,000–39,999",11–20 min,1,1,4,1,4,4,4,3,3,4,2,4,1,1,1,1,0,1,Swimming pool,>20 min,Good,Yes,0,1,0,0,1,0,5,3,5,4,1,1,1,4,Better lighting around the football field,Great work so far
 Male,25-29,400,Off-campus,"20,000–39,999",≤5 min,5,3,4,3,5,4,5,4,1,1,5,3,2,0,0,0,1,0,Swimming pool,>20 min,Very Good,Yes,0,0,0,1,0,1,2,2,4,4,4,1,3,2,More organized competitions,Good initiative
 Female,20-24,500,Off-campus,"40,000–59,999",11–20 min,5,5,4,5,4,4,3,5,3,3,5,3,3,0,0,1,0,0,Library garden,≤5 min,Poor,Yes,1,0,1,0,0,0,5,5,3,3,2,2,4,2,Swimming pool should be added,Needs more equipment
@@ -41,13 +41,13 @@ Female,20-24,500,Off-campus,"60,000+",>20 min,3,4,2,2,3,4,2,5,4,1,4,4,5,0,0,1,1,
 Male,Below 20,100,On-campus,"20,000–39,999",≤5 min,2,2,1,1,4,3,1,3,3,1,3,5,1,1,1,0,1,0,None,11–20 min,Fair,No,0,0,0,0,1,1,5,3,5,1,5,2,3,3,Swimming pool should be added,Great work so far
 Male,25-29,500,On-campus,"40,000–59,999",6–10 min,3,3,5,2,5,5,1,4,5,1,4,3,5,0,0,0,1,0,Swimming pool,11–20 min,Good,No,1,0,0,1,0,0,3,2,1,2,4,3,4,5,Swimming pool should be added,Great work so far
 Male,25-29,300,On-campus,"20,000–39,999",≤5 min,4,4,5,5,4,2,2,4,5,1,1,3,1,1,1,0,0,0,Library garden,>20 min,Poor,Yes,1,0,0,0,0,1,1,2,1,3,1,3,3,2,Build more shaded walkways,Safety is a concern at night
-Male,Below 20,100,Off-campus,"20,000–39,999",6–10 min,3,3,1,4,1,3,1,3,2,1,1,3,3,1,1,0,1,0,Music hall,6–10 min,Fair,No,0,0,0,0,0,0,1,1,4,5,5,3,5,2,Better lighting around the football field,Great work so far
+Male,Below 20,100,Off-campus,"20,000–39,999",6–10 min,3,3,1,4,1,3,1,3,2,1,1,3,3,1,1,0,1,0,None,6–10 min,Fair,No,0,0,0,0,0,0,1,1,4,5,5,3,5,2,Better lighting around the football field,Great work so far
 Female,30+,500,Off-campus,"20,000–39,999",>20 min,3,3,2,3,3,3,1,1,1,3,4,2,5,0,0,0,1,1,Library garden,11–20 min,Poor,Yes,0,0,0,1,1,1,1,2,2,1,3,1,5,3,More organized competitions,Needs more equipment
-Male,25-29,300,Off-campus,"40,000–59,999",6–10 min,4,4,2,4,4,3,3,1,4,4,2,4,4,1,0,0,1,1,Music hall,≤5 min,Very Good,Yes,1,1,0,0,0,1,2,5,1,4,3,3,1,1,Nothing,Not satisfied with gym hours
+Male,25-29,300,Off-campus,"40,000–59,999",6–10 min,4,4,2,4,4,3,3,1,4,4,2,4,4,1,0,0,1,1,None,≤5 min,Very Good,Yes,1,1,0,0,0,1,2,5,1,4,3,3,1,1,Nothing,Not satisfied with gym hours
 Female,Below 20,100,On-campus,"40,000–59,999",11–20 min,1,2,3,3,5,5,3,4,1,3,2,2,5,1,0,1,1,1,Library garden,≤5 min,Fair,No,1,0,0,0,1,0,3,1,5,4,3,5,1,2,More basketball courts would help,Great work so far
 Male,20-24,400,Off-campus,"20,000–39,999",11–20 min,5,4,3,5,3,2,1,5,5,4,3,5,5,0,0,1,0,0,Library garden,>20 min,Very Good,No,1,0,1,0,1,0,5,2,2,4,4,4,1,4,More organized competitions,Great work so far
 Female,Below 20,100,On-campus,"20,000–39,999",>20 min,5,3,4,4,1,1,2,4,5,3,1,3,5,1,1,0,0,0,Library garden,11–20 min,Excellent,Yes,0,1,0,0,1,1,1,4,4,2,3,1,2,5,Nothing,Needs more equipment
-Female,25-29,500,Off-campus,"<20,000",>20 min,2,5,5,2,4,2,2,3,1,3,4,1,3,0,0,1,1,0,Music hall,6–10 min,Excellent,No,1,1,0,0,0,0,2,4,2,3,3,1,1,1,Cheaper gym membership,Nothing else
+Female,25-29,500,Off-campus,"<20,000",>20 min,2,5,5,2,4,2,2,3,1,3,4,1,3,0,0,1,1,0,None,6–10 min,Excellent,No,1,1,0,0,0,0,2,4,2,3,3,1,1,1,Cheaper gym membership,Nothing else
 Male,25-29,100,Off-campus,"60,000+",≤5 min,5,3,2,5,3,3,2,5,5,4,2,3,3,0,0,1,0,0,Library garden,>20 min,Fair,No,0,0,1,0,1,1,3,2,4,1,4,2,4,4,Better lighting around the football field,No comment
 Male,Below 20,100,On-campus,"20,000–39,999",6–10 min,4,2,3,4,1,1,5,1,3,2,2,1,5,0,1,0,1,0,None,6–10 min,Very Good,No,0,1,1,1,1,0,2,2,5,4,3,2,1,4,More basketball courts would help,Good initiative
 Male,25-29,500,Off-campus,"40,000–59,999",6–10 min,3,5,2,1,5,3,5,4,4,3,2,4,3,0,0,0,1,0,Swimming pool,>20 min,Excellent,No,1,0,1,0,1,1,1,4,3,3,4,4,4,4,Safer environment for evening activities,Facilities are fine
@@ -56,43 +56,43 @@ Female,Below 20,100,On-campus,"20,000–39,999",6–10 min,3,3,1,2,1,1,4,5,5,1,4
 Male,25-29,300,Off-campus,"<20,000",≤5 min,4,4,3,3,5,5,4,1,1,5,3,5,1,0,1,0,0,0,Library garden,6–10 min,Poor,Yes,1,0,1,0,1,1,5,2,5,3,2,2,3,3,More basketball courts would help,Great work so far
 Male,20-24,200,Off-campus,"20,000–39,999",>20 min,4,2,4,5,1,3,2,5,1,2,1,3,2,0,1,1,1,1,None,11–20 min,Poor,Yes,0,0,0,1,0,0,4,2,2,1,1,4,3,1,More organized competitions,Safety is a concern at night
 Female,30+,500,Off-campus,"<20,000",11–20 min,1,2,2,2,2,2,5,4,2,3,5,4,1,0,0,0,1,1,Library garden,11–20 min,Excellent,No,0,1,1,1,1,0,3,1,4,4,4,1,2,1,More basketball courts would help,No comment
-Male,30+,500,Off-campus,"60,000+",11–20 min,1,2,3,1,1,1,4,3,4,5,2,3,4,1,0,0,1,0,Music hall,≤5 min,Poor,No,0,1,1,0,1,0,4,5,1,1,2,2,5,3,Safer environment for evening activities,No comment
-Male,30+,200,Off-campus,"40,000–59,999",6–10 min,3,3,1,1,3,2,5,2,5,3,4,5,5,1,1,0,1,1,Music hall,6–10 min,Good,Yes,0,1,0,0,1,1,3,3,4,2,1,4,1,2,More basketball courts would help,No comment
-Male,Below 20,100,On-campus,"40,000–59,999",11–20 min,3,2,4,3,1,3,2,2,3,3,4,1,1,1,0,1,0,0,Music hall,≤5 min,Very Good,No,0,1,0,1,1,0,4,4,4,3,2,3,1,5,More basketball courts would help,No comment
+Male,30+,500,Off-campus,"60,000+",11–20 min,1,2,3,1,1,1,4,3,4,5,2,3,4,1,0,0,1,0,None,≤5 min,Poor,No,0,1,1,0,1,0,4,5,1,1,2,2,5,3,Safer environment for evening activities,No comment
+Male,30+,200,Off-campus,"40,000–59,999",6–10 min,3,3,1,1,3,2,5,2,5,3,4,5,5,1,1,0,1,1,None,6–10 min,Good,Yes,0,1,0,0,1,1,3,3,4,2,1,4,1,2,More basketball courts would help,No comment
+Male,Below 20,100,On-campus,"40,000–59,999",11–20 min,3,2,4,3,1,3,2,2,3,3,4,1,1,1,0,1,0,0,None,≤5 min,Very Good,No,0,1,0,1,1,0,4,4,4,3,2,3,1,5,More basketball courts would help,No comment
 Male,20-24,400,On-campus,"60,000+",11–20 min,4,2,4,2,4,2,3,4,3,5,3,1,2,1,0,1,1,0,None,11–20 min,Good,No,1,1,0,1,0,0,2,5,1,2,5,4,2,1,Build more shaded walkways,No comment
 Female,25-29,400,On-campus,"20,000–39,999",>20 min,3,5,1,4,5,3,3,2,5,3,4,4,1,0,1,1,0,1,Swimming pool,11–20 min,Excellent,Yes,0,0,1,0,0,1,1,5,4,1,1,4,2,2,Cheaper gym membership,Facilities are fine
 Male,25-29,300,Off-campus,"20,000–39,999",6–10 min,5,5,4,5,4,5,4,5,3,4,2,4,1,1,1,0,1,1,Library garden,6–10 min,Very Good,No,1,1,0,0,1,1,3,1,3,1,1,2,5,1,More organized competitions,Needs more equipment
 Male,20-24,100,On-campus,"20,000–39,999",6–10 min,3,2,1,4,5,2,4,2,3,4,5,3,2,1,1,1,0,0,None,6–10 min,Very Good,No,0,0,1,1,0,0,5,4,3,5,4,4,4,2,More basketball courts would help,Good initiative
-Female,30+,400,Off-campus,"60,000+",>20 min,3,1,4,4,2,2,4,4,2,1,5,3,3,0,1,0,0,1,Music hall,11–20 min,Very Good,Yes,0,1,0,0,1,1,5,4,2,2,4,2,5,5,Cheaper gym membership,Good initiative
+Female,30+,400,Off-campus,"60,000+",>20 min,3,1,4,4,2,2,4,4,2,1,5,3,3,0,1,0,0,1,None,11–20 min,Very Good,Yes,0,1,0,0,1,1,5,4,2,2,4,2,5,5,Cheaper gym membership,Good initiative
 Male,25-29,300,Off-campus,"40,000–59,999",11–20 min,3,5,3,3,4,4,4,4,3,2,5,5,5,1,1,0,0,1,Swimming pool,6–10 min,Very Good,No,1,0,1,0,1,1,3,1,3,1,2,2,2,2,More basketball courts would help,Needs more equipment
 Male,30+,400,Off-campus,"20,000–39,999",6–10 min,1,1,1,2,4,1,4,1,2,4,5,5,1,1,1,0,0,0,None,>20 min,Very Good,Yes,0,1,0,0,1,0,4,4,5,1,5,1,2,4,Swimming pool should be added,Facilities are fine
 Female,20-24,400,On-campus,"40,000–59,999",≤5 min,5,2,4,5,4,3,5,2,3,5,1,1,4,0,0,0,0,0,Swimming pool,≤5 min,Very Good,Yes,1,1,1,0,1,0,3,5,3,4,1,5,4,3,Build more shaded walkways,Good initiative
 Male,20-24,300,Off-campus,"<20,000",>20 min,4,2,4,5,2,5,3,5,1,2,4,1,1,1,0,1,1,1,None,≤5 min,Very Good,No,1,0,0,1,1,0,4,5,1,1,1,4,3,3,Nothing,Not satisfied with gym hours
 Male,20-24,200,Off-campus,"40,000–59,999",>20 min,1,3,2,3,4,3,3,4,2,2,5,3,5,0,0,1,0,0,None,6–10 min,Fair,Yes,0,0,0,1,1,1,1,5,1,3,3,5,5,1,Better lighting around the football field,Needs more equipment
-Female,25-29,400,Off-campus,"20,000–39,999",11–20 min,3,5,1,3,4,2,2,3,3,2,4,1,4,1,1,0,1,0,Music hall,6–10 min,Poor,Yes,0,1,1,1,1,1,1,4,2,1,5,2,5,1,Better lighting around the football field,No comment
+Female,25-29,400,Off-campus,"20,000–39,999",11–20 min,3,5,1,3,4,2,2,3,3,2,4,1,4,1,1,0,1,0,None,6–10 min,Poor,Yes,0,1,1,1,1,1,1,4,2,1,5,2,5,1,Better lighting around the football field,No comment
 Male,30+,400,On-campus,"40,000–59,999",11–20 min,2,3,3,4,3,1,5,1,4,1,3,4,2,0,0,1,1,0,None,11–20 min,Poor,Yes,0,1,0,0,0,1,3,2,3,4,1,3,4,1,More organized competitions,No comment
 Female,Below 20,100,On-campus,"40,000–59,999",≤5 min,4,4,1,2,4,3,5,1,3,5,1,2,5,1,0,1,0,1,Library garden,11–20 min,Good,Yes,1,0,0,1,0,1,4,2,1,5,1,1,2,4,More organized competitions,Great work so far
-Female,20-24,200,On-campus,"60,000+",>20 min,3,4,5,4,5,5,5,5,2,3,5,2,5,0,0,0,1,1,Music hall,≤5 min,Excellent,Yes,0,1,1,1,0,0,2,2,3,5,4,1,1,2,Safer environment for evening activities,Nothing else
+Female,20-24,200,On-campus,"60,000+",>20 min,3,4,5,4,5,5,5,5,2,3,5,2,5,0,0,0,1,1,None,≤5 min,Excellent,Yes,0,1,1,1,0,0,2,2,3,5,4,1,1,2,Safer environment for evening activities,Nothing else
 Male,Below 20,400,Off-campus,"<20,000",11–20 min,2,4,4,5,2,2,4,4,2,1,5,4,5,0,1,0,0,1,Swimming pool,11–20 min,Fair,Yes,0,1,1,0,0,1,4,2,1,3,4,5,1,3,More basketball courts would help,Safety is a concern at night
 Female,25-29,400,Off-campus,"60,000+",6–10 min,3,2,2,3,4,2,4,3,3,4,1,4,5,0,1,0,0,0,None,11–20 min,Good,Yes,0,1,0,0,0,0,5,3,2,1,3,1,1,5,Cheaper gym membership,Great work so far
-Male,20-24,400,On-campus,"<20,000",>20 min,4,1,3,4,1,2,2,1,3,4,4,5,5,1,1,1,0,0,Music hall,>20 min,Fair,No,0,1,0,1,0,0,4,2,2,2,4,3,4,4,Better lighting around the football field,Facilities are fine
+Male,20-24,400,On-campus,"<20,000",>20 min,4,1,3,4,1,2,2,1,3,4,4,5,5,1,1,1,0,0,None,>20 min,Fair,No,0,1,0,1,0,0,4,2,2,2,4,3,4,4,Better lighting around the football field,Facilities are fine
 Female,25-29,500,Off-campus,"20,000–39,999",6–10 min,5,4,3,3,4,5,4,3,1,4,2,3,2,1,1,1,1,0,Swimming pool,≤5 min,Good,Yes,1,1,0,0,0,1,3,3,4,2,3,4,4,4,Cheaper gym membership,Great work so far
 Male,20-24,300,On-campus,"20,000–39,999",6–10 min,4,4,3,2,2,4,4,4,1,2,5,3,2,0,0,1,0,1,None,6–10 min,Very Good,No,0,1,1,1,1,1,4,3,1,4,5,2,4,5,Cheaper gym membership,Good initiative
-Female,25-29,300,On-campus,"40,000–59,999",>20 min,4,2,3,5,4,2,3,1,5,2,4,3,5,1,0,1,1,0,Music hall,6–10 min,Very Good,Yes,0,0,0,1,1,0,2,3,5,3,5,4,4,4,More basketball courts would help,Nothing else
+Female,25-29,300,On-campus,"40,000–59,999",>20 min,4,2,3,5,4,2,3,1,5,2,4,3,5,1,0,1,1,0,None,6–10 min,Very Good,Yes,0,0,0,1,1,0,2,3,5,3,5,4,4,4,More basketball courts would help,Nothing else
 Female,20-24,100,On-campus,"60,000+",≤5 min,5,2,3,5,3,2,5,5,3,3,4,2,3,1,0,0,0,0,Swimming pool,11–20 min,Poor,Yes,1,0,0,1,1,0,3,1,1,3,2,4,4,1,Swimming pool should be added,Safety is a concern at night
 Female,25-29,400,Off-campus,"20,000–39,999",>20 min,5,2,4,3,4,3,4,5,4,2,2,3,4,0,0,1,0,1,Library garden,≤5 min,Excellent,Yes,0,0,0,0,1,1,3,2,4,5,1,3,2,3,Better lighting around the football field,Great work so far
 Female,25-29,300,Off-campus,"60,000+",>20 min,4,2,2,4,4,5,3,1,5,1,5,1,4,1,1,0,1,1,None,>20 min,Poor,Yes,0,0,1,0,0,0,1,1,3,3,4,2,2,4,Cheaper gym membership,Needs more equipment
 Male,25-29,500,On-campus,"20,000–39,999",11–20 min,4,1,3,1,1,5,2,4,5,4,1,4,5,0,0,1,0,1,None,11–20 min,Excellent,No,1,1,0,1,1,1,3,4,5,2,2,3,3,5,More organized competitions,Needs more equipment
 Female,20-24,200,On-campus,"40,000–59,999",>20 min,2,4,4,5,5,4,1,2,2,1,5,1,1,1,1,0,1,0,None,6–10 min,Fair,Yes,1,1,1,1,0,0,4,1,3,5,2,5,4,3,Better lighting around the football field,Great work so far
-Female,30+,500,Off-campus,"40,000–59,999",11–20 min,2,2,3,5,5,2,2,2,5,3,4,1,5,0,1,0,0,1,Music hall,6–10 min,Excellent,Yes,1,1,1,0,0,0,5,1,3,1,2,1,2,2,Nothing,Great work so far
-Male,30+,500,Off-campus,"<20,000",6–10 min,2,3,1,2,3,4,1,1,4,5,2,4,2,1,0,1,1,0,Music hall,>20 min,Fair,No,0,1,1,1,1,0,1,5,5,2,3,5,4,3,Cheaper gym membership,Great work so far
+Female,30+,500,Off-campus,"40,000–59,999",11–20 min,2,2,3,5,5,2,2,2,5,3,4,1,5,0,1,0,0,1,None,6–10 min,Excellent,Yes,1,1,1,0,0,0,5,1,3,1,2,1,2,2,Nothing,Great work so far
+Male,30+,500,Off-campus,"<20,000",6–10 min,2,3,1,2,3,4,1,1,4,5,2,4,2,1,0,1,1,0,None,>20 min,Fair,No,0,1,1,1,1,0,1,5,5,2,3,5,4,3,Cheaper gym membership,Great work so far
 Female,20-24,500,Off-campus,"60,000+",>20 min,4,3,3,5,4,3,2,3,4,2,3,2,5,0,1,0,1,1,None,>20 min,Fair,Yes,1,1,0,1,1,1,4,5,4,4,1,4,1,3,Nothing,Good initiative
 Female,20-24,300,Off-campus,"20,000–39,999",≤5 min,4,5,3,1,2,5,3,5,4,1,3,2,2,1,1,1,0,0,None,≤5 min,Good,Yes,1,1,0,1,0,1,1,5,1,2,3,2,4,2,Nothing,Facilities are fine
 Female,20-24,200,Off-campus,"20,000–39,999",6–10 min,4,3,3,2,2,4,5,4,3,1,4,1,2,1,0,1,0,1,None,>20 min,Fair,Yes,0,1,0,0,1,1,1,3,1,2,1,2,5,3,Cheaper gym membership,Nothing else
 Female,Below 20,100,On-campus,"20,000–39,999",>20 min,1,2,1,2,3,2,1,5,1,1,4,4,1,0,1,1,0,1,Swimming pool,6–10 min,Fair,No,1,0,0,1,0,1,4,1,1,2,1,4,5,2,Better lighting around the football field,Needs more equipment
 Male,25-29,400,On-campus,"20,000–39,999",6–10 min,1,2,2,1,5,4,1,5,2,5,3,4,3,0,0,1,0,0,None,>20 min,Poor,Yes,1,1,0,1,1,1,3,1,2,5,4,2,4,4,Nothing,Facilities are fine
 Male,25-29,500,On-campus,"60,000+",>20 min,4,4,5,4,3,4,2,2,2,3,5,3,1,1,0,0,1,0,Swimming pool,>20 min,Very Good,Yes,0,0,1,1,0,1,5,1,4,4,3,2,1,4,Build more shaded walkways,Nothing else
-Male,20-24,200,Off-campus,"<20,000",≤5 min,2,3,4,4,3,4,3,3,4,2,5,3,5,1,0,1,1,1,Music hall,6–10 min,Fair,No,1,1,0,1,0,0,3,3,5,2,2,5,2,2,More organized competitions,Great work so far
+Male,20-24,200,Off-campus,"<20,000",≤5 min,2,3,4,4,3,4,3,3,4,2,5,3,5,1,0,1,1,1,None,6–10 min,Fair,No,1,1,0,1,0,0,3,3,5,2,2,5,2,2,More organized competitions,Great work so far
 Male,20-24,500,Off-campus,"60,000+",≤5 min,4,2,3,4,3,4,4,5,3,1,5,3,3,1,1,0,0,1,Swimming pool,>20 min,Good,Yes,1,0,1,0,1,0,2,1,1,3,5,1,5,4,More organized competitions,Nothing else
 Female,30+,100,Off-campus,"<20,000",>20 min,2,1,2,1,1,2,5,1,2,3,3,1,3,1,1,1,1,0,None,≤5 min,Good,No,1,1,1,1,0,1,2,1,3,1,1,1,4,5,Swimming pool should be added,Facilities are fine
 Female,Below 20,100,Off-campus,"<20,000",6–10 min,4,4,1,4,4,3,5,4,2,3,4,4,4,0,1,0,1,1,Library garden,≤5 min,Good,Yes,0,0,0,0,0,0,1,4,5,2,3,2,3,2,Swimming pool should be added,Good initiative
@@ -100,33 +100,33 @@ Male,20-24,200,On-campus,"<20,000",>20 min,2,4,5,2,4,2,5,1,2,5,2,3,4,0,0,1,1,0,S
 Female,25-29,300,Off-campus,"<20,000",≤5 min,3,5,1,5,4,4,1,3,4,1,4,1,5,0,1,1,0,1,None,≤5 min,Very Good,No,0,1,0,1,0,0,2,1,1,1,4,4,4,1,Cheaper gym membership,Safety is a concern at night
 Male,25-29,400,Off-campus,"60,000+",>20 min,5,5,1,4,1,4,1,3,2,3,5,3,5,0,1,0,0,1,Swimming pool,11–20 min,Very Good,No,1,1,0,1,1,1,1,1,1,4,3,3,2,4,Nothing,Facilities are fine
 Female,Below 20,200,On-campus,"60,000+",11–20 min,3,1,3,1,2,2,5,5,4,2,1,1,3,1,0,0,1,0,Library garden,>20 min,Good,Yes,1,1,1,0,1,0,2,1,1,3,4,1,3,2,More basketball courts would help,Not satisfied with gym hours
-Female,20-24,200,Off-campus,"60,000+",≤5 min,5,2,5,1,4,4,4,4,4,3,4,1,2,1,1,0,1,1,Music hall,6–10 min,Excellent,No,0,1,0,1,1,0,1,2,1,1,2,5,5,1,Nothing,Not satisfied with gym hours
+Female,20-24,200,Off-campus,"60,000+",≤5 min,5,2,5,1,4,4,4,4,4,3,4,1,2,1,1,0,1,1,None,6–10 min,Excellent,No,0,1,0,1,1,0,1,2,1,1,2,5,5,1,Nothing,Not satisfied with gym hours
 Male,30+,500,On-campus,"60,000+",≤5 min,2,3,5,3,1,1,2,2,1,5,4,3,3,0,1,1,1,0,None,11–20 min,Poor,Yes,0,1,0,1,0,1,5,5,2,3,3,2,2,2,Swimming pool should be added,Needs more equipment
-Male,20-24,200,Off-campus,"20,000–39,999",6–10 min,4,2,5,3,5,4,1,3,3,4,4,5,5,1,1,0,1,0,Music hall,11–20 min,Good,No,0,0,0,0,1,0,4,3,1,3,2,3,4,3,Build more shaded walkways,Facilities are fine
+Male,20-24,200,Off-campus,"20,000–39,999",6–10 min,4,2,5,3,5,4,1,3,3,4,4,5,5,1,1,0,1,0,None,11–20 min,Good,No,0,0,0,0,1,0,4,3,1,3,2,3,4,3,Build more shaded walkways,Facilities are fine
 Female,20-24,400,On-campus,"20,000–39,999",≤5 min,1,3,2,2,2,3,4,3,2,4,5,1,2,0,1,0,1,0,Swimming pool,>20 min,Poor,Yes,1,1,0,0,0,1,5,2,2,3,1,1,1,4,Swimming pool should be added,Facilities are fine
 Female,Below 20,200,On-campus,"20,000–39,999",>20 min,4,3,4,3,1,3,4,2,4,5,5,3,1,0,1,1,1,1,Library garden,>20 min,Excellent,Yes,0,0,1,1,0,0,3,3,4,5,4,4,5,5,Build more shaded walkways,Needs more equipment
 Male,20-24,400,Off-campus,"60,000+",11–20 min,5,5,5,3,4,4,2,3,3,3,3,2,3,0,1,0,0,1,Swimming pool,11–20 min,Good,Yes,0,1,0,1,1,0,3,5,2,4,1,3,2,4,Swimming pool should be added,Not satisfied with gym hours
-Male,25-29,100,Off-campus,"60,000+",11–20 min,3,3,2,4,4,4,4,1,3,5,5,1,1,1,0,0,0,1,Music hall,≤5 min,Poor,Yes,1,0,1,1,1,1,5,5,4,1,2,2,2,5,Cheaper gym membership,No comment
-Female,20-24,500,Off-campus,"40,000–59,999",≤5 min,5,1,1,4,1,4,3,2,4,3,4,1,3,0,1,1,0,1,Music hall,>20 min,Fair,No,1,1,0,0,1,0,2,2,2,1,1,3,4,2,Safer environment for evening activities,Good initiative
+Male,25-29,100,Off-campus,"60,000+",11–20 min,3,3,2,4,4,4,4,1,3,5,5,1,1,1,0,0,0,1,None,≤5 min,Poor,Yes,1,0,1,1,1,1,5,5,4,1,2,2,2,5,Cheaper gym membership,No comment
+Female,20-24,500,Off-campus,"40,000–59,999",≤5 min,5,1,1,4,1,4,3,2,4,3,4,1,3,0,1,1,0,1,None,>20 min,Fair,No,1,1,0,0,1,0,2,2,2,1,1,3,4,2,Safer environment for evening activities,Good initiative
 Male,25-29,500,Off-campus,"60,000+",≤5 min,3,5,2,5,3,1,1,1,3,3,3,2,1,0,1,1,0,0,Library garden,≤5 min,Good,Yes,1,0,1,0,0,0,5,2,3,5,3,4,3,1,Safer environment for evening activities,Great work so far
-Male,20-24,300,On-campus,"20,000–39,999",6–10 min,5,5,5,2,4,5,4,3,1,4,4,4,4,0,1,1,0,0,Music hall,>20 min,Very Good,No,1,1,0,1,1,0,5,5,1,2,5,1,3,3,More basketball courts would help,No comment
+Male,20-24,300,On-campus,"20,000–39,999",6–10 min,5,5,5,2,4,5,4,3,1,4,4,4,4,0,1,1,0,0,None,>20 min,Very Good,No,1,1,0,1,1,0,5,5,1,2,5,1,3,3,More basketball courts would help,No comment
 Male,30+,400,On-campus,"<20,000",11–20 min,3,3,1,1,2,2,3,1,1,5,5,1,1,1,0,0,0,1,Swimming pool,>20 min,Good,Yes,0,1,0,0,0,1,5,3,5,4,4,2,2,3,Better lighting around the football field,No comment
 Male,20-24,300,Off-campus,"<20,000",>20 min,1,5,3,3,1,5,1,4,5,4,2,4,4,1,1,1,1,1,Swimming pool,>20 min,Poor,Yes,1,1,0,0,0,1,2,4,3,2,2,5,3,1,Cheaper gym membership,Needs more equipment
-Female,20-24,400,On-campus,"20,000–39,999",>20 min,3,4,4,3,4,2,1,5,3,5,4,5,4,0,1,1,1,0,Music hall,6–10 min,Very Good,No,1,0,1,1,1,1,2,4,1,1,4,2,3,4,Cheaper gym membership,Great work so far
+Female,20-24,400,On-campus,"20,000–39,999",>20 min,3,4,4,3,4,2,1,5,3,5,4,5,4,0,1,1,1,0,None,6–10 min,Very Good,No,1,0,1,1,1,1,2,4,1,1,4,2,3,4,Cheaper gym membership,Great work so far
 Male,25-29,400,Off-campus,"<20,000",>20 min,4,4,4,4,3,4,2,1,2,3,3,2,3,0,0,0,0,1,Library garden,≤5 min,Good,No,1,0,0,1,0,0,5,4,1,5,3,4,3,5,Swimming pool should be added,Needs more equipment
 Female,Below 20,100,On-campus,"20,000–39,999",11–20 min,1,2,3,3,4,1,5,4,3,1,5,5,1,1,0,0,1,1,Swimming pool,≤5 min,Fair,No,1,0,0,0,0,1,1,5,3,5,2,5,4,4,Better lighting around the football field,Safety is a concern at night
 Female,25-29,500,Off-campus,"20,000–39,999",≤5 min,3,4,2,4,3,1,3,4,5,1,4,2,4,0,1,1,1,1,Library garden,6–10 min,Good,No,0,1,1,1,1,0,5,5,4,1,5,1,2,5,Build more shaded walkways,Not satisfied with gym hours
-Female,Below 20,200,On-campus,"20,000–39,999",≤5 min,3,4,5,1,2,1,4,4,2,1,1,5,1,0,0,1,1,1,Music hall,6–10 min,Excellent,No,0,1,1,0,0,0,2,1,2,1,3,3,4,4,Nothing,Good initiative
+Female,Below 20,200,On-campus,"20,000–39,999",≤5 min,3,4,5,1,2,1,4,4,2,1,1,5,1,0,0,1,1,1,None,6–10 min,Excellent,No,0,1,1,0,0,0,2,1,2,1,3,3,4,4,Nothing,Good initiative
 Male,Below 20,100,Off-campus,"<20,000",≤5 min,4,2,3,2,5,2,2,1,3,4,2,1,3,0,0,0,0,1,Swimming pool,>20 min,Excellent,No,1,0,1,0,0,0,1,4,1,1,1,2,4,4,More organized competitions,Facilities are fine
 Male,25-29,400,Off-campus,"60,000+",11–20 min,3,2,5,3,3,4,5,5,4,5,4,3,1,0,0,0,1,1,None,≤5 min,Fair,No,1,0,1,0,0,0,5,2,4,3,3,1,3,1,Better lighting around the football field,Great work so far
 Male,20-24,100,On-campus,"60,000+",11–20 min,5,1,5,3,2,4,5,4,2,4,4,4,5,1,1,0,0,0,Swimming pool,≤5 min,Very Good,Yes,1,1,1,0,0,0,4,1,5,1,3,4,2,4,More basketball courts would help,Safety is a concern at night
 Male,25-29,100,Off-campus,"<20,000",6–10 min,3,3,1,2,5,3,3,2,4,2,5,5,1,0,1,0,0,1,None,6–10 min,Excellent,No,0,0,0,1,0,1,4,2,1,2,4,4,5,5,Cheaper gym membership,Facilities are fine
-Female,Below 20,200,Off-campus,"<20,000",6–10 min,2,5,4,2,1,2,4,1,1,5,1,1,2,1,1,1,1,0,Music hall,>20 min,Very Good,No,1,1,0,1,1,0,3,3,3,3,2,5,2,5,Safer environment for evening activities,No comment
+Female,Below 20,200,Off-campus,"<20,000",6–10 min,2,5,4,2,1,2,4,1,1,5,1,1,2,1,1,1,1,0,None,>20 min,Very Good,No,1,1,0,1,1,0,3,3,3,3,2,5,2,5,Safer environment for evening activities,No comment
 Female,Below 20,100,Off-campus,"60,000+",>20 min,3,3,2,1,1,4,1,1,2,2,1,3,1,1,0,0,0,1,Library garden,>20 min,Good,No,0,1,1,0,1,1,2,2,3,3,5,5,3,4,Better lighting around the football field,Good initiative
-Male,30+,500,Off-campus,"60,000+",6–10 min,3,4,3,2,4,2,2,1,5,1,2,2,3,0,1,0,1,0,Music hall,6–10 min,Excellent,No,0,1,0,1,1,1,2,2,5,4,3,3,2,5,Safer environment for evening activities,Great work so far
+Male,30+,500,Off-campus,"60,000+",6–10 min,3,4,3,2,4,2,2,1,5,1,2,2,3,0,1,0,1,0,None,6–10 min,Excellent,No,0,1,0,1,1,1,2,2,5,4,3,3,2,5,Safer environment for evening activities,Great work so far
 Male,25-29,500,Off-campus,"20,000–39,999",≤5 min,3,3,3,4,1,2,2,2,3,2,2,2,3,0,0,1,0,0,None,≤5 min,Very Good,Yes,1,1,1,1,0,0,3,1,3,4,5,3,3,4,Cheaper gym membership,Nothing else
 Male,25-29,400,Off-campus,"<20,000",11–20 min,4,2,4,4,3,4,2,2,1,2,1,5,2,1,1,1,0,0,None,6–10 min,Excellent,Yes,0,0,1,1,0,1,5,2,3,3,1,2,1,4,More organized competitions,No comment
-Male,25-29,500,On-campus,"40,000–59,999",≤5 min,2,3,2,4,2,3,2,3,1,5,2,1,2,1,0,0,0,1,Music hall,≤5 min,Very Good,No,1,0,1,0,0,0,2,4,1,2,1,3,5,3,Cheaper gym membership,Safety is a concern at night
+Male,25-29,500,On-campus,"40,000–59,999",≤5 min,2,3,2,4,2,3,2,3,1,5,2,1,2,1,0,0,0,1,None,≤5 min,Very Good,No,1,0,1,0,0,0,2,4,1,2,1,3,5,3,Cheaper gym membership,Safety is a concern at night
 Male,Below 20,100,On-campus,"<20,000",11–20 min,2,3,2,3,2,2,3,4,2,2,4,2,4,1,1,0,1,1,Swimming pool,11–20 min,Excellent,No,1,0,0,1,1,1,1,2,1,3,5,5,1,3,More basketball courts would help,Facilities are fine
 Female,20-24,200,On-campus,"<20,000",≤5 min,1,4,4,1,2,2,4,5,3,2,2,5,1,1,0,1,1,1,Swimming pool,6–10 min,Good,Yes,1,1,0,1,0,1,4,1,1,5,2,4,5,4,More organized competitions,No comment
 Female,25-29,500,Off-campus,"40,000–59,999",≤5 min,3,4,2,5,4,3,5,2,4,5,5,2,1,0,0,1,0,1,Swimming pool,11–20 min,Poor,Yes,1,0,0,0,1,1,5,1,3,4,4,2,5,3,Safer environment for evening activities,Safety is a concern at night
@@ -135,35 +135,35 @@ Female,20-24,300,Off-campus,"60,000+",11–20 min,2,5,3,4,4,4,3,5,1,1,1,4,5,1,1,
 Female,20-24,400,Off-campus,"<20,000",11–20 min,3,2,2,3,4,4,1,4,2,5,2,3,3,1,0,0,0,0,None,>20 min,Excellent,No,0,1,0,0,1,1,3,5,2,2,5,2,4,3,Build more shaded walkways,Facilities are fine
 Female,Below 20,200,On-campus,"20,000–39,999",≤5 min,2,2,1,3,3,2,5,1,2,2,1,5,2,1,0,1,1,0,Swimming pool,≤5 min,Poor,Yes,0,1,1,0,1,0,5,5,2,1,1,5,5,1,Safer environment for evening activities,Facilities are fine
 Female,20-24,400,On-campus,"<20,000",>20 min,4,5,4,1,1,5,1,3,1,4,3,2,3,1,1,1,1,0,Swimming pool,≤5 min,Excellent,Yes,1,1,1,1,1,1,4,2,3,1,5,3,1,4,More organized competitions,Great work so far
-Female,25-29,300,Off-campus,"<20,000",6–10 min,5,2,2,2,5,3,1,5,2,4,2,5,3,1,0,1,0,0,Music hall,>20 min,Poor,Yes,0,0,1,1,1,1,5,2,5,3,4,4,3,5,Nothing,Good initiative
+Female,25-29,300,Off-campus,"<20,000",6–10 min,5,2,2,2,5,3,1,5,2,4,2,5,3,1,0,1,0,0,None,>20 min,Poor,Yes,0,0,1,1,1,1,5,2,5,3,4,4,3,5,Nothing,Good initiative
 Male,20-24,200,On-campus,"60,000+",11–20 min,3,3,4,5,3,2,3,4,1,4,4,2,1,1,1,1,1,0,Library garden,11–20 min,Very Good,Yes,0,1,0,0,0,0,3,4,5,3,5,2,3,5,More basketball courts would help,Great work so far
 Female,Below 20,100,On-campus,"<20,000",>20 min,4,1,1,4,1,2,2,2,5,1,3,5,4,1,0,0,1,1,Library garden,11–20 min,Poor,Yes,1,0,0,0,1,1,1,3,2,3,2,1,5,5,Cheaper gym membership,Facilities are fine
-Female,20-24,200,Off-campus,"<20,000",>20 min,2,4,2,4,3,4,1,2,1,4,3,2,3,0,0,0,1,0,Music hall,6–10 min,Poor,No,1,1,1,1,0,1,1,2,3,3,2,3,4,1,Swimming pool should be added,Great work so far
-Male,Below 20,100,On-campus,"<20,000",≤5 min,3,5,2,4,1,5,1,5,4,4,2,4,4,0,1,1,1,0,Music hall,>20 min,Very Good,Yes,1,0,1,0,0,1,5,5,1,5,5,3,1,4,Safer environment for evening activities,No comment
+Female,20-24,200,Off-campus,"<20,000",>20 min,2,4,2,4,3,4,1,2,1,4,3,2,3,0,0,0,1,0,None,6–10 min,Poor,No,1,1,1,1,0,1,1,2,3,3,2,3,4,1,Swimming pool should be added,Great work so far
+Male,Below 20,100,On-campus,"<20,000",≤5 min,3,5,2,4,1,5,1,5,4,4,2,4,4,0,1,1,1,0,None,>20 min,Very Good,Yes,1,0,1,0,0,1,5,5,1,5,5,3,1,4,Safer environment for evening activities,No comment
 Male,30+,500,Off-campus,"40,000–59,999",≤5 min,2,1,1,3,1,3,1,5,4,2,1,3,3,1,0,0,1,0,Library garden,11–20 min,Very Good,Yes,1,1,0,0,1,0,4,3,3,3,5,4,4,2,Build more shaded walkways,Great work so far
 Male,Below 20,100,On-campus,"<20,000",≤5 min,1,2,2,4,3,2,2,3,4,1,4,4,1,0,1,1,0,0,Library garden,6–10 min,Fair,Yes,0,0,1,0,0,0,1,3,5,2,3,2,3,2,Cheaper gym membership,Nothing else
 Male,20-24,100,On-campus,"<20,000",11–20 min,2,3,3,4,5,1,3,3,3,4,3,5,1,0,1,1,1,0,Swimming pool,≤5 min,Poor,Yes,0,1,0,1,1,1,2,4,1,1,1,2,2,2,More basketball courts would help,Needs more equipment
-Male,Below 20,100,On-campus,"<20,000",>20 min,3,1,5,4,4,5,1,5,1,2,1,2,2,0,1,1,1,1,Music hall,11–20 min,Excellent,Yes,1,1,0,1,1,1,5,4,5,3,3,2,3,5,Safer environment for evening activities,Needs more equipment
+Male,Below 20,100,On-campus,"<20,000",>20 min,3,1,5,4,4,5,1,5,1,2,1,2,2,0,1,1,1,1,None,11–20 min,Excellent,Yes,1,1,0,1,1,1,5,4,5,3,3,2,3,5,Safer environment for evening activities,Needs more equipment
 Male,30+,100,Off-campus,"60,000+",>20 min,5,2,1,1,2,1,3,1,2,4,5,1,1,1,0,0,1,1,Library garden,>20 min,Poor,Yes,1,1,1,0,1,1,5,5,2,3,5,4,2,5,Safer environment for evening activities,Facilities are fine
 Male,20-24,300,Off-campus,"40,000–59,999",>20 min,2,2,5,3,3,2,1,1,3,4,1,4,2,1,1,1,0,0,Swimming pool,11–20 min,Excellent,No,0,0,1,1,0,0,4,4,5,1,4,1,4,1,Nothing,No comment
 Female,Below 20,200,Off-campus,"40,000–59,999",6–10 min,2,4,3,4,1,4,4,2,1,5,5,2,1,1,1,0,0,0,Swimming pool,11–20 min,Fair,No,1,1,0,1,1,1,3,4,3,5,1,1,1,1,Build more shaded walkways,Facilities are fine
-Female,30+,400,Off-campus,"<20,000",>20 min,5,2,3,3,3,1,5,3,3,2,1,4,2,1,0,0,1,0,Music hall,11–20 min,Good,Yes,1,1,0,0,0,0,4,3,1,4,5,3,1,1,Build more shaded walkways,Facilities are fine
+Female,30+,400,Off-campus,"<20,000",>20 min,5,2,3,3,3,1,5,3,3,2,1,4,2,1,0,0,1,0,None,11–20 min,Good,Yes,1,1,0,0,0,0,4,3,1,4,5,3,1,1,Build more shaded walkways,Facilities are fine
 Male,25-29,300,Off-campus,"20,000–39,999",6–10 min,4,4,4,5,1,3,4,3,1,4,1,2,5,0,1,0,1,0,Library garden,≤5 min,Fair,No,0,0,1,0,1,1,3,2,2,1,5,2,2,1,Nothing,Needs more equipment
 Male,20-24,200,Off-campus,"<20,000",≤5 min,4,3,5,1,5,5,5,1,5,3,5,2,5,0,1,1,0,0,Swimming pool,≤5 min,Poor,No,1,0,0,0,1,1,4,5,4,4,3,5,5,4,Safer environment for evening activities,Safety is a concern at night
 Male,Below 20,100,Off-campus,"<20,000",6–10 min,1,2,3,2,1,1,5,2,3,1,5,3,4,0,0,0,0,0,Library garden,6–10 min,Excellent,Yes,1,1,0,1,1,0,4,5,2,4,3,5,2,3,Cheaper gym membership,Nothing else
 Male,Below 20,200,Off-campus,"20,000–39,999",≤5 min,1,2,1,2,3,1,4,5,5,4,2,3,2,0,0,0,0,0,Swimming pool,>20 min,Excellent,No,1,1,1,1,1,1,2,3,3,2,1,1,3,3,Cheaper gym membership,Safety is a concern at night
 Male,25-29,500,Off-campus,"<20,000",≤5 min,3,5,4,4,3,3,3,2,4,2,2,4,1,1,0,1,0,1,Swimming pool,6–10 min,Excellent,Yes,0,0,0,1,0,1,3,2,3,3,2,1,1,1,More organized competitions,Good initiative
-Male,Below 20,100,On-campus,"60,000+",11–20 min,1,2,1,3,2,2,2,2,1,5,4,1,3,0,1,0,0,0,Music hall,6–10 min,Very Good,Yes,0,0,0,0,1,0,1,1,1,5,3,2,2,2,Better lighting around the football field,Great work so far
-Male,20-24,400,Off-campus,"60,000+",11–20 min,4,4,4,5,3,3,1,4,1,3,5,4,1,0,1,1,1,0,Music hall,6–10 min,Poor,Yes,0,1,1,0,1,0,5,3,2,3,2,2,3,1,Better lighting around the football field,Good initiative
-Female,Below 20,100,On-campus,"40,000–59,999",≤5 min,1,4,4,4,4,1,5,2,1,2,5,1,4,0,0,0,1,0,Music hall,≤5 min,Excellent,No,0,0,0,0,0,0,3,5,2,1,2,4,3,3,Build more shaded walkways,Facilities are fine
+Male,Below 20,100,On-campus,"60,000+",11–20 min,1,2,1,3,2,2,2,2,1,5,4,1,3,0,1,0,0,0,None,6–10 min,Very Good,Yes,0,0,0,0,1,0,1,1,1,5,3,2,2,2,Better lighting around the football field,Great work so far
+Male,20-24,400,Off-campus,"60,000+",11–20 min,4,4,4,5,3,3,1,4,1,3,5,4,1,0,1,1,1,0,None,6–10 min,Poor,Yes,0,1,1,0,1,0,5,3,2,3,2,2,3,1,Better lighting around the football field,Good initiative
+Female,Below 20,100,On-campus,"40,000–59,999",≤5 min,1,4,4,4,4,1,5,2,1,2,5,1,4,0,0,0,1,0,None,≤5 min,Excellent,No,0,0,0,0,0,0,3,5,2,1,2,4,3,3,Build more shaded walkways,Facilities are fine
 Male,30+,400,Off-campus,"<20,000",6–10 min,1,1,4,2,3,2,2,4,5,3,4,1,2,1,0,1,1,0,None,>20 min,Fair,Yes,0,0,0,1,1,0,2,3,4,5,3,2,3,3,More organized competitions,Nothing else
 Female,25-29,400,Off-campus,"60,000+",11–20 min,5,3,3,4,5,5,3,4,1,4,1,2,3,1,0,0,1,1,Library garden,≤5 min,Excellent,Yes,0,0,0,1,0,1,2,3,5,5,4,3,3,3,Safer environment for evening activities,Good initiative
 Male,30+,100,Off-campus,"60,000+",>20 min,2,3,2,5,1,3,3,2,2,2,1,5,4,1,0,1,0,0,Library garden,11–20 min,Poor,Yes,1,0,0,1,0,0,4,5,5,2,5,5,2,3,Better lighting around the football field,Not satisfied with gym hours
 Male,20-24,500,Off-campus,"40,000–59,999",>20 min,5,5,2,3,3,2,1,3,4,3,2,1,2,1,1,1,1,1,None,≤5 min,Fair,Yes,1,1,1,1,1,1,3,1,4,4,1,2,5,2,Build more shaded walkways,Not satisfied with gym hours
 Female,25-29,300,Off-campus,"60,000+",≤5 min,5,4,4,3,2,3,4,5,5,5,1,5,5,0,0,1,0,1,Swimming pool,11–20 min,Good,No,0,1,0,1,0,1,3,4,3,5,3,1,4,2,More basketball courts would help,Safety is a concern at night
 Female,20-24,200,Off-campus,"40,000–59,999",>20 min,3,3,2,1,5,4,3,2,2,1,5,1,2,0,1,0,1,0,None,11–20 min,Poor,No,1,0,0,0,1,1,1,3,1,3,2,3,1,2,Cheaper gym membership,No comment
-Male,20-24,300,Off-campus,"<20,000",11–20 min,2,3,2,5,5,4,1,2,2,1,2,3,3,0,0,0,0,1,Music hall,11–20 min,Excellent,No,1,0,1,0,1,0,3,3,5,1,4,4,1,3,Cheaper gym membership,Nothing else
-Female,25-29,400,On-campus,"40,000–59,999",>20 min,3,4,3,3,1,5,5,1,3,2,3,2,3,1,0,0,1,0,Music hall,6–10 min,Very Good,No,1,0,0,1,1,1,4,3,2,3,3,5,3,3,Cheaper gym membership,Nothing else
+Male,20-24,300,Off-campus,"<20,000",11–20 min,2,3,2,5,5,4,1,2,2,1,2,3,3,0,0,0,0,1,None,11–20 min,Excellent,No,1,0,1,0,1,0,3,3,5,1,4,4,1,3,Cheaper gym membership,Nothing else
+Female,25-29,400,On-campus,"40,000–59,999",>20 min,3,4,3,3,1,5,5,1,3,2,3,2,3,1,0,0,1,0,None,6–10 min,Very Good,No,1,0,0,1,1,1,4,3,2,3,3,5,3,3,Cheaper gym membership,Nothing else
 Male,30+,500,Off-campus,"<20,000",6–10 min,5,2,4,1,1,1,1,2,5,3,1,4,1,0,0,1,1,1,Swimming pool,6–10 min,Very Good,No,0,1,0,0,0,0,2,2,2,2,1,5,3,1,Cheaper gym membership,Not satisfied with gym hours
 Female,25-29,500,Off-campus,"60,000+",11–20 min,3,3,4,3,1,5,1,1,1,1,5,2,5,1,1,1,0,0,Swimming pool,11–20 min,Poor,Yes,0,0,1,1,1,0,5,4,2,3,2,2,3,5,Better lighting around the football field,Safety is a concern at night
 Male,Below 20,200,On-campus,"60,000+",6–10 min,1,5,4,4,4,2,2,3,5,2,3,5,2,0,0,0,0,0,Swimming pool,≤5 min,Fair,Yes,0,0,1,0,1,0,4,3,5,2,1,4,2,4,Cheaper gym membership,Needs more equipment
@@ -176,32 +176,32 @@ Female,Below 20,100,On-campus,"<20,000",>20 min,4,5,2,1,2,3,3,3,4,3,5,2,3,0,1,0,
 Male,20-24,400,Off-campus,"60,000+",≤5 min,1,1,5,5,4,3,2,5,5,1,3,5,4,1,0,0,1,0,None,≤5 min,Poor,No,1,0,1,0,1,1,3,5,3,1,5,2,4,1,Better lighting around the football field,Safety is a concern at night
 Male,20-24,300,On-campus,"60,000+",6–10 min,4,3,3,4,2,4,3,2,3,1,5,4,4,1,1,1,0,1,None,≤5 min,Poor,No,0,0,0,0,1,1,1,2,4,1,4,2,1,1,Better lighting around the football field,Safety is a concern at night
 Male,20-24,400,Off-campus,"60,000+",>20 min,3,5,2,4,5,1,5,2,3,2,2,1,1,0,1,1,0,1,Library garden,>20 min,Poor,Yes,0,0,1,1,0,0,4,5,1,5,2,4,1,5,Swimming pool should be added,Good initiative
-Female,20-24,500,Off-campus,"<20,000",≤5 min,4,5,4,2,4,1,4,2,3,5,1,4,4,1,1,1,0,0,Music hall,>20 min,Very Good,No,1,1,0,1,1,0,4,5,2,3,2,2,2,1,Better lighting around the football field,No comment
+Female,20-24,500,Off-campus,"<20,000",≤5 min,4,5,4,2,4,1,4,2,3,5,1,4,4,1,1,1,0,0,None,>20 min,Very Good,No,1,1,0,1,1,0,4,5,2,3,2,2,2,1,Better lighting around the football field,No comment
 Male,20-24,300,On-campus,"20,000–39,999",6–10 min,4,4,3,5,1,4,4,5,4,4,1,4,3,1,1,1,0,1,Library garden,6–10 min,Very Good,No,0,1,1,1,1,0,5,4,3,4,3,1,4,3,Nothing,Great work so far
 Male,20-24,500,On-campus,"<20,000",>20 min,4,3,3,2,3,3,4,2,3,4,5,3,5,1,1,1,0,1,Library garden,11–20 min,Poor,Yes,0,1,1,0,1,0,5,5,2,4,1,1,3,2,Safer environment for evening activities,Nothing else
-Female,30+,400,Off-campus,"20,000–39,999",11–20 min,2,1,1,3,1,3,1,3,5,1,4,1,2,0,1,1,1,0,Music hall,6–10 min,Very Good,Yes,1,1,1,0,0,0,3,2,5,1,1,3,3,4,Better lighting around the football field,Good initiative
-Male,30+,500,On-campus,"20,000–39,999",>20 min,3,3,2,4,2,1,3,4,2,2,1,5,3,1,1,0,1,1,Music hall,>20 min,Very Good,Yes,1,0,0,0,0,0,3,1,4,2,2,4,1,3,More organized competitions,Great work so far
+Female,30+,400,Off-campus,"20,000–39,999",11–20 min,2,1,1,3,1,3,1,3,5,1,4,1,2,0,1,1,1,0,None,6–10 min,Very Good,Yes,1,1,1,0,0,0,3,2,5,1,1,3,3,4,Better lighting around the football field,Good initiative
+Male,30+,500,On-campus,"20,000–39,999",>20 min,3,3,2,4,2,1,3,4,2,2,1,5,3,1,1,0,1,1,None,>20 min,Very Good,Yes,1,0,0,0,0,0,3,1,4,2,2,4,1,3,More organized competitions,Great work so far
 Male,25-29,400,Off-campus,"<20,000",11–20 min,4,3,4,1,3,3,3,1,4,1,4,2,1,0,1,1,1,0,None,11–20 min,Excellent,Yes,1,1,1,1,0,1,2,4,1,2,3,2,4,5,Nothing,Good initiative
 Male,25-29,200,Off-campus,"<20,000",11–20 min,4,5,2,5,4,3,4,4,5,2,5,3,2,0,1,0,0,1,None,6–10 min,Good,No,0,0,0,0,0,1,4,3,5,4,3,2,2,3,Nothing,Not satisfied with gym hours
 Male,25-29,100,Off-campus,"20,000–39,999",11–20 min,2,1,4,5,5,1,1,5,3,1,3,4,1,0,1,1,1,1,None,11–20 min,Very Good,Yes,0,0,0,0,1,1,1,4,1,1,2,2,4,1,Swimming pool should be added,Facilities are fine
 Female,30+,500,On-campus,"<20,000",6–10 min,1,3,4,3,2,3,5,4,4,3,1,5,2,0,0,1,1,0,None,≤5 min,Good,Yes,0,0,0,0,0,0,4,4,5,4,1,4,3,1,Nothing,Good initiative
 Female,25-29,500,On-campus,"60,000+",≤5 min,5,3,3,3,5,2,1,4,2,2,2,2,2,1,1,1,0,0,Library garden,6–10 min,Fair,No,1,0,0,0,0,0,1,3,5,2,3,1,3,2,Nothing,Good initiative
-Male,20-24,500,Off-campus,"60,000+",6–10 min,5,4,4,3,4,5,5,3,3,5,3,3,3,1,0,1,1,1,Music hall,≤5 min,Good,Yes,0,0,0,0,1,1,1,2,2,3,3,2,3,4,Build more shaded walkways,Not satisfied with gym hours
+Male,20-24,500,Off-campus,"60,000+",6–10 min,5,4,4,3,4,5,5,3,3,5,3,3,3,1,0,1,1,1,None,≤5 min,Good,Yes,0,0,0,0,1,1,1,2,2,3,3,2,3,4,Build more shaded walkways,Not satisfied with gym hours
 Male,25-29,400,Off-campus,"<20,000",11–20 min,4,2,1,5,5,3,1,5,2,3,3,1,2,1,0,0,0,0,Swimming pool,11–20 min,Good,No,0,1,0,0,1,0,3,1,3,3,1,3,1,4,More organized competitions,Safety is a concern at night
-Male,20-24,200,Off-campus,"60,000+",6–10 min,4,4,5,3,1,1,5,4,5,2,4,4,2,1,0,0,1,1,Music hall,11–20 min,Excellent,Yes,0,0,1,0,0,0,4,4,5,2,4,3,5,3,Better lighting around the football field,Not satisfied with gym hours
+Male,20-24,200,Off-campus,"60,000+",6–10 min,4,4,5,3,1,1,5,4,5,2,4,4,2,1,0,0,1,1,None,11–20 min,Excellent,Yes,0,0,1,0,0,0,4,4,5,2,4,3,5,3,Better lighting around the football field,Not satisfied with gym hours
 Female,25-29,400,On-campus,"40,000–59,999",11–20 min,5,5,5,4,4,3,2,3,3,5,4,1,2,1,1,1,1,1,None,11–20 min,Fair,No,0,0,0,1,1,0,2,1,4,1,4,2,2,2,More organized competitions,Good initiative
 Male,20-24,400,On-campus,"20,000–39,999",11–20 min,3,2,3,2,4,5,5,5,3,4,3,3,4,0,0,0,1,0,None,≤5 min,Excellent,Yes,1,0,1,1,0,1,4,1,1,5,3,5,5,4,Build more shaded walkways,Facilities are fine
 Female,20-24,100,On-campus,"20,000–39,999",11–20 min,5,4,4,5,4,1,2,5,4,3,4,4,3,0,0,1,0,1,Swimming pool,11–20 min,Poor,No,0,0,1,1,0,1,3,3,1,3,1,3,3,3,More organized competitions,Not satisfied with gym hours
-Male,20-24,200,Off-campus,"40,000–59,999",>20 min,4,5,5,1,5,5,4,4,3,2,4,1,2,0,0,1,1,1,Music hall,11–20 min,Fair,Yes,1,0,1,0,0,1,1,1,1,5,2,3,4,1,Cheaper gym membership,Safety is a concern at night
+Male,20-24,200,Off-campus,"40,000–59,999",>20 min,4,5,5,1,5,5,4,4,3,2,4,1,2,0,0,1,1,1,None,11–20 min,Fair,Yes,1,0,1,0,0,1,1,1,1,5,2,3,4,1,Cheaper gym membership,Safety is a concern at night
 Male,20-24,300,On-campus,"<20,000",>20 min,2,5,4,5,4,2,2,1,4,2,4,3,2,0,1,0,1,1,Swimming pool,11–20 min,Poor,No,0,1,1,0,1,1,4,2,3,5,5,3,1,4,Cheaper gym membership,No comment
 Female,20-24,300,On-campus,"20,000–39,999",11–20 min,4,4,2,4,4,5,3,5,1,2,4,3,1,0,1,0,1,0,None,≤5 min,Good,Yes,0,1,1,1,0,1,4,1,3,5,4,4,1,1,Build more shaded walkways,Not satisfied with gym hours
 Female,30+,500,On-campus,"<20,000",6–10 min,4,2,4,3,1,2,1,4,4,5,1,2,5,0,1,0,1,1,Swimming pool,11–20 min,Fair,No,0,1,1,0,0,0,5,3,4,2,4,1,2,3,Swimming pool should be added,Great work so far
 Female,30+,500,Off-campus,"20,000–39,999",≤5 min,1,3,1,4,3,1,2,2,4,2,1,5,4,0,1,1,1,0,Library garden,11–20 min,Poor,Yes,0,0,0,0,1,1,1,3,1,2,2,4,5,5,Better lighting around the football field,No comment
 Male,25-29,500,On-campus,"40,000–59,999",≤5 min,4,5,3,4,5,1,2,5,3,3,1,4,5,1,0,0,0,1,None,>20 min,Poor,Yes,0,1,0,1,0,1,3,5,2,2,5,1,2,2,Swimming pool should be added,No comment
 Male,Below 20,100,On-campus,"60,000+",>20 min,4,5,2,2,4,5,5,5,3,1,1,1,5,0,1,0,1,0,None,>20 min,Fair,No,1,1,0,0,0,0,1,3,2,3,3,3,5,2,Build more shaded walkways,Safety is a concern at night
-Male,25-29,400,On-campus,"20,000–39,999",11–20 min,2,2,5,2,3,1,3,1,4,1,4,3,5,0,1,0,1,1,Music hall,6–10 min,Very Good,Yes,0,1,0,1,0,0,4,2,4,3,2,2,1,2,More basketball courts would help,Good initiative
+Male,25-29,400,On-campus,"20,000–39,999",11–20 min,2,2,5,2,3,1,3,1,4,1,4,3,5,0,1,0,1,1,None,6–10 min,Very Good,Yes,0,1,0,1,0,0,4,2,4,3,2,2,1,2,More basketball courts would help,Good initiative
 Female,30+,500,Off-campus,"20,000–39,999",11–20 min,4,2,1,1,2,1,3,3,2,4,4,5,3,0,0,1,0,0,Library garden,11–20 min,Good,Yes,0,1,0,0,1,1,5,4,3,2,2,5,3,5,More basketball courts would help,Good initiative
-Male,25-29,300,Off-campus,"60,000+",≤5 min,1,4,5,5,4,4,3,1,5,4,2,4,2,0,1,1,1,0,Music hall,≤5 min,Poor,Yes,1,0,1,0,0,0,3,1,2,2,1,1,4,2,More organized competitions,Safety is a concern at night
+Male,25-29,300,Off-campus,"60,000+",≤5 min,1,4,5,5,4,4,3,1,5,4,2,4,2,0,1,1,1,0,None,≤5 min,Poor,Yes,1,0,1,0,0,0,3,1,2,2,1,1,4,2,More organized competitions,Safety is a concern at night
 Male,20-24,300,Off-campus,"20,000–39,999",11–20 min,3,2,5,4,2,3,5,1,2,1,2,2,3,1,0,0,1,0,Library garden,≤5 min,Very Good,Yes,1,1,0,0,1,1,2,3,3,4,2,5,1,4,Swimming pool should be added,Nothing else
 Male,30+,500,Off-campus,"40,000–59,999",6–10 min,3,2,3,5,1,1,5,5,3,5,5,4,4,0,1,0,0,1,Library garden,≤5 min,Very Good,No,0,0,1,0,1,0,4,5,3,3,5,5,3,3,Build more shaded walkways,Good initiative
 Female,25-29,500,Off-campus,"<20,000",≤5 min,2,2,5,3,5,2,1,4,3,3,1,2,2,0,1,0,1,1,None,>20 min,Fair,No,1,0,0,0,1,1,4,5,3,2,3,5,3,2,Better lighting around the football field,Great work so far
@@ -212,12 +212,12 @@ Male,Below 20,200,On-campus,"<20,000",≤5 min,5,3,4,4,1,3,3,1,5,3,5,5,3,0,0,0,1
 Female,Below 20,100,On-campus,"20,000–39,999",11–20 min,2,4,1,3,1,2,2,2,1,2,4,3,3,0,0,1,0,0,None,11–20 min,Good,No,1,1,0,1,0,0,3,1,1,5,1,5,2,2,Nothing,Good initiative
 Female,20-24,500,On-campus,"60,000+",>20 min,5,2,5,3,5,3,1,5,4,1,1,4,5,0,1,1,0,0,None,>20 min,Good,Yes,1,1,0,0,0,1,3,3,3,2,3,5,1,3,Build more shaded walkways,No comment
 Female,20-24,400,Off-campus,"<20,000",11–20 min,5,1,4,4,3,4,2,3,2,1,3,2,1,0,1,1,0,1,Library garden,>20 min,Poor,Yes,1,1,1,0,1,0,2,3,4,5,3,5,1,5,Swimming pool should be added,No comment
-Male,25-29,200,On-campus,"60,000+",6–10 min,5,5,5,3,2,4,1,5,2,2,4,3,1,0,1,1,1,1,Music hall,>20 min,Good,No,0,1,0,1,1,1,2,4,1,2,4,5,4,3,Cheaper gym membership,Safety is a concern at night
-Male,20-24,200,Off-campus,"60,000+",>20 min,2,3,5,5,1,2,1,1,4,2,3,5,1,0,1,0,0,1,Music hall,>20 min,Fair,Yes,1,1,0,1,1,1,3,1,4,2,1,2,5,5,Cheaper gym membership,Not satisfied with gym hours
+Male,25-29,200,On-campus,"60,000+",6–10 min,5,5,5,3,2,4,1,5,2,2,4,3,1,0,1,1,1,1,None,>20 min,Good,No,0,1,0,1,1,1,2,4,1,2,4,5,4,3,Cheaper gym membership,Safety is a concern at night
+Male,20-24,200,Off-campus,"60,000+",>20 min,2,3,5,5,1,2,1,1,4,2,3,5,1,0,1,0,0,1,None,>20 min,Fair,Yes,1,1,0,1,1,1,3,1,4,2,1,2,5,5,Cheaper gym membership,Not satisfied with gym hours
 Male,20-24,300,On-campus,"<20,000",6–10 min,3,5,5,5,4,5,2,3,3,1,1,3,1,1,0,0,1,0,Library garden,11–20 min,Good,No,0,0,0,0,0,1,4,2,4,4,5,4,2,1,More organized competitions,Nothing else
 Male,Below 20,100,On-campus,"40,000–59,999",≤5 min,4,2,3,1,4,3,1,2,5,2,5,5,2,0,0,1,1,1,Library garden,≤5 min,Good,Yes,0,1,0,1,0,0,1,3,4,5,3,3,1,5,Nothing,No comment
 Female,20-24,500,Off-campus,"40,000–59,999",>20 min,5,1,1,2,5,4,4,1,5,1,4,4,5,0,0,0,0,1,Swimming pool,>20 min,Poor,No,0,1,0,1,1,0,1,2,3,3,3,4,5,1,More basketball courts would help,Great work so far
-Female,20-24,200,On-campus,"40,000–59,999",11–20 min,1,2,3,4,2,1,3,5,4,1,1,5,1,1,1,0,0,1,Music hall,≤5 min,Poor,Yes,0,1,1,0,0,0,2,5,5,2,4,2,2,3,More basketball courts would help,Not satisfied with gym hours
+Female,20-24,200,On-campus,"40,000–59,999",11–20 min,1,2,3,4,2,1,3,5,4,1,1,5,1,1,1,0,0,1,None,≤5 min,Poor,Yes,0,1,1,0,0,0,2,5,5,2,4,2,2,3,More basketball courts would help,Not satisfied with gym hours
 Male,20-24,200,On-campus,"<20,000",≤5 min,2,4,3,4,3,3,5,5,5,3,2,1,5,0,1,1,1,0,None,>20 min,Very Good,Yes,0,1,1,1,1,1,3,3,1,3,3,1,2,3,More organized competitions,Facilities are fine
 Male,30+,500,Off-campus,"40,000–59,999",11–20 min,1,2,2,2,1,4,5,1,2,3,2,4,4,1,1,0,1,1,Swimming pool,≤5 min,Fair,No,0,1,0,0,1,1,1,3,3,5,2,3,4,1,More organized competitions,Nothing else
 Female,20-24,200,On-campus,"20,000–39,999",>20 min,3,4,3,5,3,4,5,2,5,2,2,1,2,1,0,0,0,0,Library garden,≤5 min,Good,Yes,1,0,0,0,0,1,4,4,1,1,4,4,4,2,Swimming pool should be added,Great work so far
@@ -230,51 +230,51 @@ Male,20-24,100,On-campus,"60,000+",6–10 min,5,1,5,1,1,4,4,5,5,5,4,2,4,0,1,0,0,
 Male,20-24,200,Off-campus,"20,000–39,999",6–10 min,4,2,5,4,4,2,1,1,5,2,3,1,2,1,0,0,1,0,Swimming pool,11–20 min,Good,No,0,1,1,0,1,0,4,3,3,3,3,5,1,5,Build more shaded walkways,Needs more equipment
 Female,Below 20,100,On-campus,"40,000–59,999",≤5 min,3,1,2,3,2,2,1,4,4,5,4,2,5,0,1,1,0,0,Swimming pool,11–20 min,Fair,Yes,1,1,1,0,0,0,2,3,1,5,3,2,1,4,Build more shaded walkways,No comment
 Male,30+,500,Off-campus,"60,000+",≤5 min,4,5,4,1,2,1,4,2,2,1,4,3,1,1,1,0,1,1,None,>20 min,Very Good,No,0,1,1,1,1,1,2,3,4,3,3,3,3,3,Better lighting around the football field,Good initiative
-Male,25-29,400,Off-campus,"<20,000",>20 min,5,3,5,3,3,2,1,2,4,2,3,5,3,1,0,1,0,1,Music hall,>20 min,Very Good,Yes,1,1,0,1,0,1,5,4,4,4,3,2,3,5,More basketball courts would help,Good initiative
+Male,25-29,400,Off-campus,"<20,000",>20 min,5,3,5,3,3,2,1,2,4,2,3,5,3,1,0,1,0,1,None,>20 min,Very Good,Yes,1,1,0,1,0,1,5,4,4,4,3,2,3,5,More basketball courts would help,Good initiative
 Female,20-24,200,Off-campus,"20,000–39,999",11–20 min,1,2,5,4,4,1,1,3,2,1,3,5,1,1,0,1,0,0,Library garden,11–20 min,Fair,No,1,0,0,1,0,1,4,4,1,2,3,2,5,5,Better lighting around the football field,Good initiative
 Male,Below 20,100,On-campus,"20,000–39,999",11–20 min,3,5,4,2,2,3,4,3,2,2,4,1,5,1,1,0,0,0,Swimming pool,6–10 min,Poor,Yes,1,0,0,1,1,0,3,2,1,2,4,3,5,3,Swimming pool should be added,Facilities are fine
 Male,30+,400,Off-campus,"40,000–59,999",≤5 min,3,1,4,2,1,2,2,3,1,5,5,2,4,1,0,0,0,1,Swimming pool,6–10 min,Fair,No,0,0,1,1,0,0,4,3,1,5,1,2,4,3,Build more shaded walkways,Nothing else
-Male,20-24,200,On-campus,"60,000+",>20 min,2,1,5,1,5,5,2,3,5,5,1,1,4,1,1,1,1,1,Music hall,≤5 min,Very Good,Yes,1,0,0,1,0,1,5,4,5,4,4,5,2,5,Nothing,No comment
+Male,20-24,200,On-campus,"60,000+",>20 min,2,1,5,1,5,5,2,3,5,5,1,1,4,1,1,1,1,1,None,≤5 min,Very Good,Yes,1,0,0,1,0,1,5,4,5,4,4,5,2,5,Nothing,No comment
 Male,30+,400,Off-campus,"60,000+",11–20 min,5,2,3,1,4,3,3,5,3,3,4,3,2,0,0,0,0,0,None,≤5 min,Good,No,1,0,1,1,1,0,2,2,1,1,1,2,3,4,Nothing,Needs more equipment
-Male,25-29,200,Off-campus,"<20,000",≤5 min,1,5,5,1,3,1,2,3,5,5,3,3,3,0,1,0,1,1,Music hall,≤5 min,Poor,No,0,1,1,1,0,1,3,2,5,5,1,3,5,1,Nothing,Safety is a concern at night
-Male,25-29,300,Off-campus,"<20,000",>20 min,5,3,3,4,5,2,1,2,5,3,4,5,1,0,1,1,0,0,Music hall,>20 min,Fair,No,1,0,1,1,1,0,4,2,3,4,3,1,4,4,Swimming pool should be added,Not satisfied with gym hours
+Male,25-29,200,Off-campus,"<20,000",≤5 min,1,5,5,1,3,1,2,3,5,5,3,3,3,0,1,0,1,1,None,≤5 min,Poor,No,0,1,1,1,0,1,3,2,5,5,1,3,5,1,Nothing,Safety is a concern at night
+Male,25-29,300,Off-campus,"<20,000",>20 min,5,3,3,4,5,2,1,2,5,3,4,5,1,0,1,1,0,0,None,>20 min,Fair,No,1,0,1,1,1,0,4,2,3,4,3,1,4,4,Swimming pool should be added,Not satisfied with gym hours
 Female,20-24,400,On-campus,"40,000–59,999",6–10 min,5,5,4,3,3,4,5,1,5,1,2,4,4,1,0,1,0,1,Swimming pool,11–20 min,Fair,No,0,1,1,1,1,0,5,4,2,4,1,3,3,4,Cheaper gym membership,Nothing else
 Male,20-24,300,On-campus,"60,000+",>20 min,5,2,5,4,4,5,4,4,1,3,3,3,4,0,1,0,0,1,Swimming pool,≤5 min,Very Good,No,0,0,1,1,0,0,3,4,4,5,5,3,4,3,Nothing,Great work so far
-Female,20-24,200,On-campus,"40,000–59,999",≤5 min,4,1,4,4,3,2,3,2,5,2,4,1,5,0,0,1,1,0,Music hall,11–20 min,Good,No,0,0,0,0,1,0,5,3,1,4,4,3,4,1,Safer environment for evening activities,Good initiative
+Female,20-24,200,On-campus,"40,000–59,999",≤5 min,4,1,4,4,3,2,3,2,5,2,4,1,5,0,0,1,1,0,None,11–20 min,Good,No,0,0,0,0,1,0,5,3,1,4,4,3,4,1,Safer environment for evening activities,Good initiative
 Male,Below 20,100,On-campus,"40,000–59,999",>20 min,5,5,4,5,2,1,1,1,5,5,3,2,3,1,0,1,1,0,None,≤5 min,Excellent,No,1,0,0,0,0,0,3,4,4,4,4,2,4,2,Build more shaded walkways,Safety is a concern at night
-Female,30+,200,Off-campus,"<20,000",11–20 min,1,2,4,4,4,4,4,3,4,3,3,1,5,0,0,0,1,1,Music hall,11–20 min,Very Good,Yes,1,1,1,1,0,1,1,5,4,4,3,5,4,2,More organized competitions,Great work so far
-Male,20-24,300,On-campus,"20,000–39,999",6–10 min,3,2,5,5,4,1,2,2,4,3,3,3,4,0,1,1,1,0,Music hall,>20 min,Excellent,Yes,1,1,0,0,0,1,3,5,5,1,2,2,2,2,Swimming pool should be added,Nothing else
+Female,30+,200,Off-campus,"<20,000",11–20 min,1,2,4,4,4,4,4,3,4,3,3,1,5,0,0,0,1,1,None,11–20 min,Very Good,Yes,1,1,1,1,0,1,1,5,4,4,3,5,4,2,More organized competitions,Great work so far
+Male,20-24,300,On-campus,"20,000–39,999",6–10 min,3,2,5,5,4,1,2,2,4,3,3,3,4,0,1,1,1,0,None,>20 min,Excellent,Yes,1,1,0,0,0,1,3,5,5,1,2,2,2,2,Swimming pool should be added,Nothing else
 Male,Below 20,100,On-campus,"40,000–59,999",>20 min,2,2,4,3,1,2,5,5,1,1,4,3,4,1,1,0,1,0,None,11–20 min,Fair,No,1,0,0,1,0,1,4,3,1,4,1,5,2,1,Better lighting around the football field,Good initiative
 Male,25-29,400,On-campus,"60,000+",6–10 min,4,2,5,5,5,4,1,3,2,2,2,1,5,0,0,1,1,0,Library garden,≤5 min,Poor,No,1,0,1,0,1,0,4,2,5,2,1,4,3,2,Cheaper gym membership,Facilities are fine
-Female,25-29,100,On-campus,"60,000+",11–20 min,1,3,3,3,4,4,3,1,3,2,5,1,4,1,0,1,1,0,Music hall,>20 min,Excellent,No,0,0,1,0,0,0,2,2,2,5,2,5,3,2,Swimming pool should be added,Facilities are fine
+Female,25-29,100,On-campus,"60,000+",11–20 min,1,3,3,3,4,4,3,1,3,2,5,1,4,1,0,1,1,0,None,>20 min,Excellent,No,0,0,1,0,0,0,2,2,2,5,2,5,3,2,Swimming pool should be added,Facilities are fine
 Male,20-24,300,Off-campus,"20,000–39,999",11–20 min,2,2,2,3,3,4,4,5,4,5,4,2,4,0,1,1,0,0,None,6–10 min,Fair,Yes,1,0,1,1,1,0,4,5,4,4,2,2,2,3,Better lighting around the football field,Not satisfied with gym hours
 Male,25-29,400,On-campus,"60,000+",>20 min,4,2,5,5,2,3,2,5,1,2,2,1,3,0,1,0,1,1,Library garden,>20 min,Poor,Yes,0,1,1,0,0,1,4,2,3,4,2,4,2,5,Safer environment for evening activities,Nothing else
-Female,25-29,500,On-campus,"60,000+",6–10 min,5,5,5,5,2,1,5,1,2,2,3,1,4,1,1,0,1,0,Music hall,11–20 min,Good,Yes,1,0,0,1,0,1,3,1,2,2,2,2,2,3,More organized competitions,Great work so far
+Female,25-29,500,On-campus,"60,000+",6–10 min,5,5,5,5,2,1,5,1,2,2,3,1,4,1,1,0,1,0,None,11–20 min,Good,Yes,1,0,0,1,0,1,3,1,2,2,2,2,2,3,More organized competitions,Great work so far
 Male,25-29,400,Off-campus,"40,000–59,999",≤5 min,3,1,5,3,4,3,3,1,1,3,5,1,5,0,1,0,0,0,Swimming pool,11–20 min,Poor,Yes,0,1,1,0,0,1,5,4,3,4,2,5,4,1,Nothing,Needs more equipment
 Female,25-29,400,On-campus,"40,000–59,999",≤5 min,5,3,3,4,3,3,2,4,2,2,1,2,3,0,0,0,0,1,None,≤5 min,Fair,No,1,1,0,0,0,0,2,5,2,2,5,5,3,2,Safer environment for evening activities,Great work so far
 Male,25-29,400,Off-campus,"60,000+",>20 min,1,3,4,4,5,5,5,2,4,2,2,1,4,1,1,0,1,0,Swimming pool,>20 min,Excellent,Yes,1,1,1,1,0,1,1,5,1,5,1,4,5,4,Nothing,Needs more equipment
 Male,20-24,200,On-campus,"20,000–39,999",≤5 min,4,5,5,3,3,3,5,4,3,1,1,1,3,1,1,0,0,1,None,6–10 min,Fair,Yes,1,0,1,1,0,1,3,1,2,5,2,2,5,5,Build more shaded walkways,Needs more equipment
 Male,20-24,200,Off-campus,"20,000–39,999",>20 min,5,5,3,5,5,1,3,5,1,1,5,5,5,1,1,0,0,0,None,>20 min,Good,Yes,0,1,1,1,1,0,2,5,4,4,4,1,1,3,Safer environment for evening activities,Needs more equipment
-Male,Below 20,300,On-campus,"20,000–39,999",≤5 min,1,2,4,3,4,3,2,2,4,4,1,2,1,0,1,0,0,0,Music hall,≤5 min,Fair,No,0,1,0,0,0,0,3,1,5,2,3,5,2,1,Nothing,No comment
-Male,20-24,400,On-campus,"<20,000",>20 min,2,3,2,5,4,4,5,4,5,4,1,3,4,0,0,0,0,0,Music hall,6–10 min,Poor,Yes,1,1,0,1,0,1,1,3,5,4,2,5,1,2,More organized competitions,Great work so far
+Male,Below 20,300,On-campus,"20,000–39,999",≤5 min,1,2,4,3,4,3,2,2,4,4,1,2,1,0,1,0,0,0,None,≤5 min,Fair,No,0,1,0,0,0,0,3,1,5,2,3,5,2,1,Nothing,No comment
+Male,20-24,400,On-campus,"<20,000",>20 min,2,3,2,5,4,4,5,4,5,4,1,3,4,0,0,0,0,0,None,6–10 min,Poor,Yes,1,1,0,1,0,1,1,3,5,4,2,5,1,2,More organized competitions,Great work so far
 Male,30+,400,Off-campus,"40,000–59,999",6–10 min,1,2,1,3,3,2,5,4,5,2,4,3,3,1,0,0,0,0,Swimming pool,>20 min,Poor,No,1,1,1,0,0,0,4,4,5,3,5,3,1,1,Swimming pool should be added,Great work so far
 Male,Below 20,100,On-campus,"60,000+",>20 min,2,3,2,2,4,1,3,5,4,2,2,5,5,0,0,1,1,1,Library garden,≤5 min,Very Good,Yes,1,1,1,1,1,1,5,3,1,4,5,2,5,1,Safer environment for evening activities,Good initiative
 Male,20-24,200,Off-campus,"20,000–39,999",6–10 min,4,1,5,2,4,4,2,2,5,3,2,5,3,1,0,1,0,1,Swimming pool,11–20 min,Fair,No,0,0,0,0,0,1,3,4,3,3,2,4,2,5,More organized competitions,Not satisfied with gym hours
-Female,25-29,500,On-campus,"20,000–39,999",6–10 min,5,5,5,4,2,4,5,3,3,2,4,1,1,0,1,0,1,0,Music hall,11–20 min,Excellent,No,1,0,1,1,0,0,2,4,2,1,5,2,3,5,Cheaper gym membership,Needs more equipment
+Female,25-29,500,On-campus,"20,000–39,999",6–10 min,5,5,5,4,2,4,5,3,3,2,4,1,1,0,1,0,1,0,None,11–20 min,Excellent,No,1,0,1,1,0,0,2,4,2,1,5,2,3,5,Cheaper gym membership,Needs more equipment
 Female,30+,500,On-campus,"20,000–39,999",11–20 min,1,3,1,1,2,2,1,5,1,5,1,1,2,1,1,0,1,0,Swimming pool,≤5 min,Good,Yes,0,0,1,0,1,1,5,4,1,4,4,1,3,3,Nothing,No comment
 Female,25-29,400,Off-campus,"<20,000",6–10 min,4,4,1,5,2,5,3,2,1,5,4,4,5,1,0,0,1,1,Swimming pool,>20 min,Excellent,No,1,1,1,1,1,0,1,1,3,1,4,5,4,4,Cheaper gym membership,Safety is a concern at night
 Male,20-24,200,Off-campus,"<20,000",>20 min,2,5,2,5,2,5,3,3,1,3,3,1,1,1,1,1,0,0,Swimming pool,6–10 min,Good,Yes,0,0,0,1,0,0,2,1,2,2,2,2,2,2,More organized competitions,Great work so far
 Male,Below 20,100,Off-campus,"40,000–59,999",11–20 min,1,5,3,2,3,4,2,5,4,2,3,2,4,0,1,1,0,0,Swimming pool,>20 min,Fair,Yes,1,1,0,0,0,1,1,3,3,4,1,4,1,5,Swimming pool should be added,Not satisfied with gym hours
 Male,Below 20,100,On-campus,"20,000–39,999",>20 min,3,2,1,2,1,1,4,4,1,2,1,4,2,1,1,0,0,0,Swimming pool,11–20 min,Excellent,No,1,0,0,0,0,0,5,2,3,2,4,4,1,4,Cheaper gym membership,Good initiative
-Female,Below 20,100,On-campus,"<20,000",6–10 min,1,3,2,5,2,4,4,5,2,5,4,1,2,1,1,0,0,1,Music hall,>20 min,Good,No,0,1,0,0,0,1,1,5,5,3,2,1,2,5,Cheaper gym membership,No comment
-Female,20-24,300,Off-campus,"<20,000",11–20 min,5,3,4,5,2,5,1,4,4,5,4,4,2,1,1,1,1,0,Music hall,>20 min,Very Good,Yes,1,0,1,1,1,0,2,1,2,4,3,1,1,5,Cheaper gym membership,Good initiative
-Male,25-29,400,Off-campus,"40,000–59,999",>20 min,5,3,4,5,1,4,4,1,4,5,2,4,3,1,0,0,0,1,Music hall,11–20 min,Excellent,Yes,1,1,1,0,1,1,2,1,1,3,1,3,1,5,Better lighting around the football field,Needs more equipment
+Female,Below 20,100,On-campus,"<20,000",6–10 min,1,3,2,5,2,4,4,5,2,5,4,1,2,1,1,0,0,1,None,>20 min,Good,No,0,1,0,0,0,1,1,5,5,3,2,1,2,5,Cheaper gym membership,No comment
+Female,20-24,300,Off-campus,"<20,000",11–20 min,5,3,4,5,2,5,1,4,4,5,4,4,2,1,1,1,1,0,None,>20 min,Very Good,Yes,1,0,1,1,1,0,2,1,2,4,3,1,1,5,Cheaper gym membership,Good initiative
+Male,25-29,400,Off-campus,"40,000–59,999",>20 min,5,3,4,5,1,4,4,1,4,5,2,4,3,1,0,0,0,1,None,11–20 min,Excellent,Yes,1,1,1,0,1,1,2,1,1,3,1,3,1,5,Better lighting around the football field,Needs more equipment
 Male,Below 20,100,On-campus,"60,000+",>20 min,2,4,4,3,2,4,2,2,1,1,5,4,5,1,0,1,0,1,None,6–10 min,Poor,Yes,1,0,0,1,1,1,4,1,4,1,1,1,4,3,Safer environment for evening activities,Safety is a concern at night
-Male,25-29,500,Off-campus,"40,000–59,999",11–20 min,4,1,5,4,3,3,2,5,3,2,2,4,5,0,0,1,0,1,Music hall,11–20 min,Poor,Yes,0,1,0,1,0,1,5,1,5,4,4,5,1,4,Better lighting around the football field,Facilities are fine
+Male,25-29,500,Off-campus,"40,000–59,999",11–20 min,4,1,5,4,3,3,2,5,3,2,2,4,5,0,0,1,0,1,None,11–20 min,Poor,Yes,0,1,0,1,0,1,5,1,5,4,4,5,1,4,Better lighting around the football field,Facilities are fine
 Female,Below 20,100,On-campus,"<20,000",11–20 min,5,2,3,1,1,1,4,5,4,2,5,4,4,0,0,0,0,0,Library garden,≤5 min,Fair,Yes,1,1,1,1,0,0,5,3,2,3,1,3,5,4,Cheaper gym membership,Needs more equipment
 Male,30+,300,Off-campus,"60,000+",11–20 min,1,2,2,3,3,2,4,1,4,5,5,5,4,1,1,1,0,1,Library garden,11–20 min,Excellent,No,1,0,1,1,0,0,1,1,3,4,2,5,2,4,Build more shaded walkways,Not satisfied with gym hours
 Male,30+,500,Off-campus,"40,000–59,999",>20 min,2,2,2,4,2,2,4,3,3,3,2,4,2,1,0,1,0,1,Library garden,6–10 min,Very Good,Yes,0,1,0,1,0,0,4,2,1,3,3,4,3,2,Better lighting around the football field,Nothing else
-Male,30+,100,Off-campus,"<20,000",6–10 min,1,5,3,2,1,3,2,3,3,2,4,5,1,1,1,0,0,0,Music hall,>20 min,Poor,No,0,0,0,0,0,0,3,2,2,5,5,5,3,1,Cheaper gym membership,Nothing else
+Male,30+,100,Off-campus,"<20,000",6–10 min,1,5,3,2,1,3,2,3,3,2,4,5,1,1,1,0,0,0,None,>20 min,Poor,No,0,0,0,0,0,0,3,2,2,5,5,5,3,1,Cheaper gym membership,Nothing else
 Male,25-29,500,Off-campus,"60,000+",11–20 min,4,4,3,5,4,5,1,2,1,1,5,1,3,1,0,0,0,0,Swimming pool,>20 min,Poor,No,1,1,0,1,1,0,3,2,3,2,5,5,2,1,More organized competitions,Good initiative
 Male,25-29,400,Off-campus,"60,000+",≤5 min,2,5,3,4,5,1,3,1,5,1,1,4,4,0,1,0,0,0,Swimming pool,6–10 min,Fair,Yes,0,0,0,0,1,0,5,2,5,3,2,5,2,2,Cheaper gym membership,No comment
 Female,Below 20,100,Off-campus,"40,000–59,999",11–20 min,3,3,3,3,3,2,1,2,3,3,2,4,2,1,1,1,0,0,None,≤5 min,Fair,No,0,0,0,0,0,1,3,5,4,1,2,1,1,5,Nothing,Nothing else
@@ -283,12 +283,12 @@ Male,25-29,400,Off-campus,"<20,000",>20 min,3,4,2,3,2,4,4,2,1,1,1,5,4,1,0,0,0,1,
 Female,25-29,400,On-campus,"20,000–39,999",≤5 min,4,4,5,2,5,3,5,4,2,3,2,2,3,1,0,1,0,1,Library garden,>20 min,Fair,Yes,0,1,1,0,1,0,3,3,2,2,2,3,3,2,Better lighting around the football field,Safety is a concern at night
 Male,Below 20,100,Off-campus,"60,000+",≤5 min,1,1,4,2,1,2,1,4,5,5,4,1,5,1,1,1,1,1,Library garden,11–20 min,Fair,No,1,1,1,0,0,0,2,5,1,5,4,3,4,2,Nothing,Facilities are fine
 Male,Below 20,200,On-campus,"20,000–39,999",>20 min,2,3,3,3,3,3,1,5,2,3,1,2,1,0,1,0,1,0,Library garden,≤5 min,Good,No,1,1,0,0,0,1,2,5,5,4,3,1,2,3,Better lighting around the football field,Needs more equipment
-Male,25-29,500,On-campus,"20,000–39,999",6–10 min,5,2,5,4,2,5,3,5,5,2,5,3,1,1,0,0,0,1,Music hall,11–20 min,Fair,Yes,0,1,0,1,1,1,5,4,4,5,1,4,4,4,Build more shaded walkways,Good initiative
+Male,25-29,500,On-campus,"20,000–39,999",6–10 min,5,2,5,4,2,5,3,5,5,2,5,3,1,1,0,0,0,1,None,11–20 min,Fair,Yes,0,1,0,1,1,1,5,4,4,5,1,4,4,4,Build more shaded walkways,Good initiative
 Male,20-24,100,On-campus,"40,000–59,999",11–20 min,4,5,3,5,3,3,2,2,1,3,1,5,4,1,0,0,1,1,Library garden,11–20 min,Good,No,1,0,1,1,1,0,3,4,1,2,1,5,1,3,More basketball courts would help,Nothing else
 Female,Below 20,200,On-campus,"<20,000",≤5 min,2,5,2,5,5,2,3,4,2,5,1,1,3,1,1,0,0,1,None,≤5 min,Very Good,Yes,1,0,1,1,0,0,3,5,3,4,3,2,1,1,More basketball courts would help,Nothing else
 Female,Below 20,100,Off-campus,"20,000–39,999",11–20 min,5,5,1,1,1,1,5,2,2,3,3,3,5,0,0,1,0,0,None,≤5 min,Good,No,1,0,1,0,1,0,5,4,3,3,3,5,2,1,Cheaper gym membership,No comment
-Female,20-24,300,Off-campus,"60,000+",>20 min,5,1,3,2,2,2,3,1,3,2,4,5,4,0,0,1,1,1,Music hall,≤5 min,Very Good,Yes,1,0,0,0,0,1,3,4,2,1,4,4,4,1,Nothing,Good initiative
-Male,20-24,200,On-campus,"<20,000",≤5 min,3,2,3,3,2,3,1,4,3,1,4,1,2,0,0,1,1,0,Music hall,>20 min,Excellent,Yes,1,1,1,1,1,0,3,5,5,4,5,2,3,1,Safer environment for evening activities,Good initiative
+Female,20-24,300,Off-campus,"60,000+",>20 min,5,1,3,2,2,2,3,1,3,2,4,5,4,0,0,1,1,1,None,≤5 min,Very Good,Yes,1,0,0,0,0,1,3,4,2,1,4,4,4,1,Nothing,Good initiative
+Male,20-24,200,On-campus,"<20,000",≤5 min,3,2,3,3,2,3,1,4,3,1,4,1,2,0,0,1,1,0,None,>20 min,Excellent,Yes,1,1,1,1,1,0,3,5,5,4,5,2,3,1,Safer environment for evening activities,Good initiative
 Male,20-24,300,Off-campus,"20,000–39,999",>20 min,4,4,5,3,2,4,3,1,1,4,3,4,1,1,0,1,0,1,None,≤5 min,Poor,Yes,0,1,1,0,1,0,4,3,4,5,5,1,4,5,Nothing,Needs more equipment
 Female,25-29,500,On-campus,"40,000–59,999",≤5 min,4,4,4,4,2,2,3,5,5,1,3,3,5,1,0,0,0,1,None,>20 min,Very Good,Yes,1,0,0,0,1,0,2,1,1,2,3,1,4,3,Swimming pool should be added,Nothing else
 Male,30+,100,On-campus,"60,000+",11–20 min,5,3,2,3,3,5,3,1,3,2,5,3,2,0,1,1,0,1,Swimming pool,6–10 min,Good,No,1,0,0,1,0,0,1,1,5,3,4,4,3,4,More basketball courts would help,Not satisfied with gym hours
@@ -308,27 +308,27 @@ Male,20-24,300,Off-campus,"20,000–39,999",6–10 min,4,4,1,2,5,2,2,4,5,1,1,5,2
 Male,Below 20,100,Off-campus,"60,000+",11–20 min,2,3,1,2,5,2,1,4,5,4,4,3,2,0,1,1,1,0,None,6–10 min,Good,No,1,0,1,1,1,1,4,3,4,3,3,1,1,2,Build more shaded walkways,No comment
 Male,25-29,500,Off-campus,"40,000–59,999",>20 min,1,3,2,2,1,3,2,5,1,5,2,1,5,1,1,1,0,1,None,6–10 min,Poor,Yes,0,1,0,0,1,0,2,5,1,5,4,1,4,1,Nothing,Facilities are fine
 Male,20-24,200,Off-campus,"20,000–39,999",11–20 min,3,3,2,1,2,3,5,2,2,3,3,5,4,1,1,0,1,0,Library garden,≤5 min,Very Good,Yes,1,1,0,1,1,1,4,3,2,2,4,2,5,3,More organized competitions,Not satisfied with gym hours
-Male,25-29,500,Off-campus,"<20,000",>20 min,4,4,4,3,3,4,3,4,3,2,3,1,1,1,0,1,0,0,Music hall,11–20 min,Very Good,No,0,0,0,1,0,1,4,4,1,3,3,4,5,1,Better lighting around the football field,Needs more equipment
+Male,25-29,500,Off-campus,"<20,000",>20 min,4,4,4,3,3,4,3,4,3,2,3,1,1,1,0,1,0,0,None,11–20 min,Very Good,No,0,0,0,1,0,1,4,4,1,3,3,4,5,1,Better lighting around the football field,Needs more equipment
 Female,20-24,300,Off-campus,"40,000–59,999",>20 min,3,4,4,5,2,1,4,3,3,4,2,2,5,1,0,0,0,1,Swimming pool,≤5 min,Very Good,No,0,0,0,0,1,1,2,5,1,2,3,3,4,5,Better lighting around the football field,Great work so far
-Male,25-29,300,Off-campus,"<20,000",>20 min,3,5,2,5,4,3,5,1,5,3,3,1,2,0,1,1,1,1,Music hall,11–20 min,Poor,No,0,0,1,0,1,0,5,5,3,3,1,2,3,2,More basketball courts would help,Facilities are fine
+Male,25-29,300,Off-campus,"<20,000",>20 min,3,5,2,5,4,3,5,1,5,3,3,1,2,0,1,1,1,1,None,11–20 min,Poor,No,0,0,1,0,1,0,5,5,3,3,1,2,3,2,More basketball courts would help,Facilities are fine
 Female,20-24,200,Off-campus,"<20,000",>20 min,4,3,3,2,5,1,1,3,4,1,4,2,3,1,0,1,0,0,None,11–20 min,Good,No,1,0,0,0,0,1,1,3,2,3,3,5,5,5,Build more shaded walkways,Needs more equipment
 Female,Below 20,200,Off-campus,"20,000–39,999",11–20 min,4,1,1,3,3,2,2,5,1,4,3,5,5,0,1,1,0,1,None,11–20 min,Very Good,No,0,1,0,0,1,1,3,3,2,4,2,3,1,5,More basketball courts would help,Safety is a concern at night
 Female,20-24,400,Off-campus,"20,000–39,999",11–20 min,5,4,1,2,5,1,5,4,5,3,3,4,3,0,1,0,0,0,Library garden,6–10 min,Good,Yes,1,0,1,1,0,0,3,4,2,4,3,1,2,4,Build more shaded walkways,Not satisfied with gym hours
-Female,30+,400,Off-campus,"60,000+",≤5 min,3,2,1,1,3,3,1,1,1,4,1,5,3,1,0,0,0,1,Music hall,>20 min,Excellent,Yes,1,1,0,1,1,0,3,1,4,3,3,3,1,4,Build more shaded walkways,No comment
+Female,30+,400,Off-campus,"60,000+",≤5 min,3,2,1,1,3,3,1,1,1,4,1,5,3,1,0,0,0,1,None,>20 min,Excellent,Yes,1,1,0,1,1,0,3,1,4,3,3,3,1,4,Build more shaded walkways,No comment
 Female,30+,400,Off-campus,"40,000–59,999",≤5 min,2,2,3,1,4,5,3,5,3,3,3,5,5,0,1,1,1,1,Library garden,≤5 min,Good,No,1,1,0,0,1,1,4,3,2,1,4,2,4,2,Swimming pool should be added,No comment
 Male,Below 20,100,On-campus,"40,000–59,999",≤5 min,4,4,1,4,3,3,3,1,1,4,5,3,4,0,0,0,0,0,Library garden,6–10 min,Fair,Yes,1,1,1,1,1,1,1,2,3,1,3,2,2,2,More organized competitions,No comment
 Male,20-24,200,On-campus,"<20,000",11–20 min,5,5,4,5,5,3,1,4,1,2,4,4,4,1,1,0,1,0,Library garden,6–10 min,Poor,No,1,0,0,1,1,0,3,2,2,5,4,4,2,1,More organized competitions,Facilities are fine
 Female,20-24,100,On-campus,"40,000–59,999",6–10 min,2,4,5,5,5,3,5,5,1,3,2,3,4,1,0,0,1,1,Library garden,11–20 min,Very Good,Yes,0,0,1,1,0,1,1,3,3,4,1,4,1,5,Cheaper gym membership,Facilities are fine
-Male,20-24,400,On-campus,"20,000–39,999",11–20 min,1,5,3,3,4,2,4,4,1,1,3,4,1,0,1,1,1,0,Music hall,11–20 min,Fair,No,1,1,0,1,0,0,4,4,3,3,5,2,2,2,More organized competitions,No comment
-Male,25-29,500,Off-campus,"<20,000",≤5 min,5,3,4,3,5,4,4,3,5,4,3,4,1,1,1,0,0,0,Music hall,>20 min,Fair,No,1,1,1,1,0,1,3,2,2,1,2,2,5,5,Build more shaded walkways,Nothing else
+Male,20-24,400,On-campus,"20,000–39,999",11–20 min,1,5,3,3,4,2,4,4,1,1,3,4,1,0,1,1,1,0,None,11–20 min,Fair,No,1,1,0,1,0,0,4,4,3,3,5,2,2,2,More organized competitions,No comment
+Male,25-29,500,Off-campus,"<20,000",≤5 min,5,3,4,3,5,4,4,3,5,4,3,4,1,1,1,0,0,0,None,>20 min,Fair,No,1,1,1,1,0,1,3,2,2,1,2,2,5,5,Build more shaded walkways,Nothing else
 Male,20-24,300,On-campus,"<20,000",11–20 min,1,3,5,2,5,5,1,3,2,1,2,4,3,1,0,0,1,0,None,≤5 min,Fair,No,1,1,1,0,1,0,3,2,1,5,1,2,1,5,More basketball courts would help,Great work so far
-Male,20-24,400,Off-campus,"60,000+",≤5 min,5,5,4,3,3,5,2,2,5,4,2,2,3,1,1,0,1,0,Music hall,11–20 min,Poor,No,1,0,0,1,0,1,4,4,1,1,5,2,3,4,Nothing,Good initiative
-Male,Below 20,100,On-campus,"40,000–59,999",6–10 min,2,2,1,1,3,5,5,1,1,3,1,3,1,1,0,1,0,1,Music hall,>20 min,Excellent,No,0,0,1,1,0,1,2,2,3,3,5,3,1,5,More organized competitions,Nothing else
+Male,20-24,400,Off-campus,"60,000+",≤5 min,5,5,4,3,3,5,2,2,5,4,2,2,3,1,1,0,1,0,None,11–20 min,Poor,No,1,0,0,1,0,1,4,4,1,1,5,2,3,4,Nothing,Good initiative
+Male,Below 20,100,On-campus,"40,000–59,999",6–10 min,2,2,1,1,3,5,5,1,1,3,1,3,1,1,0,1,0,1,None,>20 min,Excellent,No,0,0,1,1,0,1,2,2,3,3,5,3,1,5,More organized competitions,Nothing else
 Female,25-29,300,Off-campus,"20,000–39,999",≤5 min,3,4,1,2,2,3,4,4,4,1,2,2,2,1,1,0,0,1,Library garden,≤5 min,Good,No,1,0,0,1,1,1,5,5,3,3,1,3,2,4,Cheaper gym membership,Not satisfied with gym hours
-Female,20-24,200,Off-campus,"60,000+",11–20 min,1,2,2,5,4,2,1,2,2,1,2,4,2,0,0,1,0,0,Music hall,11–20 min,Poor,Yes,0,0,0,0,0,1,3,4,4,2,2,4,4,1,Better lighting around the football field,Great work so far
+Female,20-24,200,Off-campus,"60,000+",11–20 min,1,2,2,5,4,2,1,2,2,1,2,4,2,0,0,1,0,0,None,11–20 min,Poor,Yes,0,0,0,0,0,1,3,4,4,2,2,4,4,1,Better lighting around the football field,Great work so far
 Male,20-24,200,On-campus,"20,000–39,999",>20 min,2,2,5,2,4,1,4,1,1,2,2,4,4,0,0,0,0,1,Swimming pool,6–10 min,Good,Yes,0,0,1,0,1,0,1,5,4,5,5,1,5,3,Swimming pool should be added,Needs more equipment
-Male,20-24,100,Off-campus,"20,000–39,999",≤5 min,5,4,3,5,3,3,1,5,5,2,1,3,4,1,1,0,0,1,Music hall,>20 min,Excellent,No,1,1,0,0,0,1,1,4,3,5,2,4,4,4,Build more shaded walkways,Not satisfied with gym hours
-Male,Below 20,100,On-campus,"60,000+",>20 min,1,3,1,2,4,3,4,3,5,2,3,5,5,0,1,0,0,0,Music hall,>20 min,Fair,No,0,0,1,1,1,1,3,2,1,2,5,2,5,2,Safer environment for evening activities,Safety is a concern at night
+Male,20-24,100,Off-campus,"20,000–39,999",≤5 min,5,4,3,5,3,3,1,5,5,2,1,3,4,1,1,0,0,1,None,>20 min,Excellent,No,1,1,0,0,0,1,1,4,3,5,2,4,4,4,Build more shaded walkways,Not satisfied with gym hours
+Male,Below 20,100,On-campus,"60,000+",>20 min,1,3,1,2,4,3,4,3,5,2,3,5,5,0,1,0,0,0,None,>20 min,Fair,No,0,0,1,1,1,1,3,2,1,2,5,2,5,2,Safer environment for evening activities,Safety is a concern at night
 Male,30+,100,Off-campus,"20,000–39,999",≤5 min,4,4,3,2,2,1,5,5,4,5,1,2,4,1,0,0,0,1,Library garden,≤5 min,Good,Yes,1,1,0,0,0,0,5,1,5,1,2,1,3,4,Swimming pool should be added,Great work so far
 Female,Below 20,100,On-campus,"60,000+",>20 min,3,3,3,3,2,3,5,1,5,5,2,3,2,1,0,0,1,0,None,11–20 min,Excellent,Yes,0,1,0,0,0,1,4,3,2,5,4,3,1,5,Nothing,Good initiative
 Male,20-24,400,Off-campus,"40,000–59,999",≤5 min,5,3,1,2,5,5,2,4,3,4,1,1,3,1,1,1,1,1,Library garden,≤5 min,Fair,Yes,0,0,1,1,1,0,5,1,5,3,5,2,5,4,Swimming pool should be added,Good initiative
@@ -339,83 +339,83 @@ Male,30+,500,Off-campus,"<20,000",11–20 min,2,2,3,1,2,4,2,4,3,1,3,1,3,1,0,1,0,
 Male,Below 20,100,On-campus,"20,000–39,999",6–10 min,1,2,2,3,5,3,3,3,1,3,2,4,5,0,1,1,1,1,Library garden,>20 min,Poor,No,1,0,1,1,1,0,2,3,4,1,1,4,2,2,More organized competitions,Facilities are fine
 Male,30+,500,On-campus,"20,000–39,999",11–20 min,1,1,1,2,3,2,1,3,3,1,3,3,1,1,0,1,0,1,Swimming pool,≤5 min,Excellent,Yes,0,0,0,1,0,0,1,1,2,3,3,5,5,3,Nothing,No comment
 Female,20-24,300,Off-campus,"40,000–59,999",≤5 min,4,3,3,3,4,5,2,3,1,2,1,5,1,0,1,1,1,0,Library garden,>20 min,Good,Yes,0,1,0,1,0,1,1,3,2,3,3,4,2,2,Nothing,Good initiative
-Male,Below 20,100,Off-campus,"60,000+",6–10 min,1,2,3,3,2,4,2,2,5,2,1,1,2,0,1,0,0,0,Music hall,11–20 min,Poor,Yes,1,0,1,1,0,0,1,2,1,5,4,3,3,4,Build more shaded walkways,Needs more equipment
+Male,Below 20,100,Off-campus,"60,000+",6–10 min,1,2,3,3,2,4,2,2,5,2,1,1,2,0,1,0,0,0,None,11–20 min,Poor,Yes,1,0,1,1,0,0,1,2,1,5,4,3,3,4,Build more shaded walkways,Needs more equipment
 Male,25-29,400,Off-campus,"20,000–39,999",≤5 min,3,5,1,5,2,4,2,1,1,4,5,5,1,1,1,1,0,1,Library garden,11–20 min,Poor,Yes,1,1,1,1,0,1,1,2,5,4,4,5,1,2,Cheaper gym membership,Nothing else
 Male,25-29,200,On-campus,"60,000+",≤5 min,5,4,1,5,4,2,5,3,3,3,4,3,3,0,1,0,0,1,Swimming pool,≤5 min,Poor,Yes,1,1,0,1,1,0,1,2,2,3,1,5,3,1,Cheaper gym membership,Safety is a concern at night
 Male,20-24,500,On-campus,"60,000+",11–20 min,3,5,3,3,2,1,5,5,5,3,3,2,2,1,1,1,1,0,None,≤5 min,Very Good,No,1,1,0,1,1,1,5,3,2,5,4,4,4,2,Swimming pool should be added,Facilities are fine
-Male,25-29,500,Off-campus,"40,000–59,999",>20 min,4,4,2,3,3,5,1,4,4,1,2,2,3,0,1,1,0,0,Music hall,11–20 min,Excellent,Yes,0,1,0,0,1,0,2,3,1,1,3,1,3,3,More organized competitions,No comment
-Male,30+,400,On-campus,"60,000+",6–10 min,3,4,2,5,2,1,5,1,3,4,1,2,3,1,0,0,0,1,Music hall,6–10 min,Excellent,No,1,0,1,1,1,0,3,4,4,2,3,3,5,4,More organized competitions,Not satisfied with gym hours
+Male,25-29,500,Off-campus,"40,000–59,999",>20 min,4,4,2,3,3,5,1,4,4,1,2,2,3,0,1,1,0,0,None,11–20 min,Excellent,Yes,0,1,0,0,1,0,2,3,1,1,3,1,3,3,More organized competitions,No comment
+Male,30+,400,On-campus,"60,000+",6–10 min,3,4,2,5,2,1,5,1,3,4,1,2,3,1,0,0,0,1,None,6–10 min,Excellent,No,1,0,1,1,1,0,3,4,4,2,3,3,5,4,More organized competitions,Not satisfied with gym hours
 Male,30+,500,Off-campus,"60,000+",11–20 min,1,1,2,3,1,4,3,5,3,2,5,4,5,0,0,0,1,1,Library garden,6–10 min,Excellent,No,0,1,1,1,1,1,3,2,5,5,4,1,4,1,Swimming pool should be added,Not satisfied with gym hours
-Male,25-29,300,Off-campus,"<20,000",11–20 min,3,1,4,4,5,5,5,1,2,1,1,1,5,1,1,0,1,1,Music hall,>20 min,Poor,Yes,1,1,0,1,0,0,4,2,1,4,4,5,5,5,Nothing,Needs more equipment
-Male,Below 20,300,On-campus,"20,000–39,999",≤5 min,1,3,3,1,1,5,5,3,1,4,2,1,1,1,1,0,0,0,Music hall,6–10 min,Excellent,No,0,1,1,0,0,0,3,2,1,4,4,2,2,2,Nothing,Needs more equipment
+Male,25-29,300,Off-campus,"<20,000",11–20 min,3,1,4,4,5,5,5,1,2,1,1,1,5,1,1,0,1,1,None,>20 min,Poor,Yes,1,1,0,1,0,0,4,2,1,4,4,5,5,5,Nothing,Needs more equipment
+Male,Below 20,300,On-campus,"20,000–39,999",≤5 min,1,3,3,1,1,5,5,3,1,4,2,1,1,1,1,0,0,0,None,6–10 min,Excellent,No,0,1,1,0,0,0,3,2,1,4,4,2,2,2,Nothing,Needs more equipment
 Female,25-29,500,Off-campus,"40,000–59,999",11–20 min,3,3,4,5,4,4,1,5,4,3,4,5,1,1,1,0,0,0,Library garden,6–10 min,Good,No,0,0,1,0,1,0,3,1,5,2,2,1,1,4,More organized competitions,Nothing else
 Female,25-29,500,On-campus,"20,000–39,999",6–10 min,3,2,2,5,5,4,2,5,1,5,5,5,3,1,0,1,0,1,Swimming pool,≤5 min,Poor,Yes,1,0,1,1,1,1,1,4,1,4,1,5,3,3,Safer environment for evening activities,Safety is a concern at night
 Female,25-29,500,Off-campus,"20,000–39,999",>20 min,1,4,5,3,5,5,1,2,2,4,2,4,5,0,1,0,1,1,Library garden,11–20 min,Poor,No,1,1,1,0,1,0,4,1,1,3,2,1,4,5,Nothing,Good initiative
 Male,20-24,200,On-campus,"60,000+",11–20 min,4,5,5,2,4,4,5,5,3,4,1,4,4,0,1,0,1,0,Swimming pool,≤5 min,Very Good,Yes,0,0,0,1,0,0,1,5,2,1,4,4,2,3,More organized competitions,Not satisfied with gym hours
-Male,20-24,300,On-campus,"<20,000",11–20 min,2,2,4,2,4,1,5,2,5,2,2,1,2,0,1,1,1,0,Music hall,11–20 min,Excellent,No,1,1,0,1,0,1,2,2,1,3,3,2,2,1,More basketball courts would help,Needs more equipment
+Male,20-24,300,On-campus,"<20,000",11–20 min,2,2,4,2,4,1,5,2,5,2,2,1,2,0,1,1,1,0,None,11–20 min,Excellent,No,1,1,0,1,0,1,2,2,1,3,3,2,2,1,More basketball courts would help,Needs more equipment
 Female,20-24,500,Off-campus,"40,000–59,999",11–20 min,3,3,2,4,4,2,2,3,3,5,3,5,5,1,0,0,0,0,None,11–20 min,Good,No,1,0,0,1,1,1,1,2,1,3,5,5,3,2,Nothing,Safety is a concern at night
 Male,30+,300,On-campus,"60,000+",11–20 min,3,1,2,2,5,3,2,2,4,5,2,1,1,1,1,1,0,0,None,11–20 min,Fair,Yes,1,1,0,0,1,1,2,1,1,4,3,3,4,4,Cheaper gym membership,Facilities are fine
 Male,Below 20,200,On-campus,"40,000–59,999",6–10 min,2,1,3,2,2,3,5,5,5,1,5,4,4,1,0,0,0,0,Swimming pool,>20 min,Good,Yes,0,1,1,1,1,0,3,1,4,4,1,5,5,4,Safer environment for evening activities,Facilities are fine
-Male,30+,300,Off-campus,"40,000–59,999",6–10 min,1,1,2,3,1,1,1,2,3,3,2,5,5,0,1,1,0,0,Music hall,6–10 min,Fair,No,0,1,1,0,1,1,2,1,3,4,5,2,4,1,More basketball courts would help,Nothing else
-Male,20-24,400,Off-campus,"20,000–39,999",6–10 min,3,5,5,4,3,1,2,1,2,5,1,2,5,0,1,0,0,0,Music hall,6–10 min,Excellent,Yes,0,0,0,0,1,1,3,2,5,2,2,2,5,5,Cheaper gym membership,Good initiative
+Male,30+,300,Off-campus,"40,000–59,999",6–10 min,1,1,2,3,1,1,1,2,3,3,2,5,5,0,1,1,0,0,None,6–10 min,Fair,No,0,1,1,0,1,1,2,1,3,4,5,2,4,1,More basketball courts would help,Nothing else
+Male,20-24,400,Off-campus,"20,000–39,999",6–10 min,3,5,5,4,3,1,2,1,2,5,1,2,5,0,1,0,0,0,None,6–10 min,Excellent,Yes,0,0,0,0,1,1,3,2,5,2,2,2,5,5,Cheaper gym membership,Good initiative
 Female,20-24,400,Off-campus,"60,000+",11–20 min,5,2,4,2,4,5,1,2,5,2,5,2,2,0,1,0,1,1,Library garden,6–10 min,Poor,Yes,0,0,1,1,0,0,1,2,2,5,3,2,2,4,Build more shaded walkways,No comment
 Female,20-24,300,On-campus,"20,000–39,999",>20 min,3,2,3,5,2,4,3,4,4,1,5,2,5,0,1,1,0,0,Swimming pool,11–20 min,Fair,No,0,0,0,1,1,0,4,5,3,5,2,1,5,2,Build more shaded walkways,Needs more equipment
-Male,25-29,400,On-campus,"<20,000",≤5 min,3,3,2,2,3,1,1,5,4,3,3,5,2,1,0,0,1,1,Music hall,11–20 min,Fair,No,0,0,1,0,1,1,3,2,5,1,2,2,4,2,Swimming pool should be added,No comment
+Male,25-29,400,On-campus,"<20,000",≤5 min,3,3,2,2,3,1,1,5,4,3,3,5,2,1,0,0,1,1,None,11–20 min,Fair,No,0,0,1,0,1,1,3,2,5,1,2,2,4,2,Swimming pool should be added,No comment
 Male,20-24,500,On-campus,"40,000–59,999",11–20 min,5,3,3,3,5,2,3,4,1,4,2,4,4,0,1,0,0,0,Library garden,11–20 min,Very Good,No,1,1,1,1,1,1,1,2,1,3,4,4,3,3,More organized competitions,Not satisfied with gym hours
 Male,Below 20,300,On-campus,"<20,000",11–20 min,1,2,4,2,3,5,3,2,2,2,5,3,5,0,0,1,1,0,Swimming pool,11–20 min,Fair,Yes,1,1,1,1,1,0,4,5,4,4,5,1,4,5,Better lighting around the football field,Needs more equipment
-Male,Below 20,100,On-campus,"60,000+",>20 min,2,2,3,3,3,2,1,3,4,5,1,3,3,1,0,0,0,0,Music hall,≤5 min,Excellent,No,0,0,1,1,0,0,1,5,4,2,3,2,1,3,Cheaper gym membership,Nothing else
-Male,20-24,500,On-campus,"40,000–59,999",11–20 min,2,1,4,4,4,2,2,3,3,2,2,5,5,1,0,1,1,1,Music hall,≤5 min,Poor,Yes,0,1,0,0,0,1,2,2,5,2,3,2,2,1,More organized competitions,Not satisfied with gym hours
+Male,Below 20,100,On-campus,"60,000+",>20 min,2,2,3,3,3,2,1,3,4,5,1,3,3,1,0,0,0,0,None,≤5 min,Excellent,No,0,0,1,1,0,0,1,5,4,2,3,2,1,3,Cheaper gym membership,Nothing else
+Male,20-24,500,On-campus,"40,000–59,999",11–20 min,2,1,4,4,4,2,2,3,3,2,2,5,5,1,0,1,1,1,None,≤5 min,Poor,Yes,0,1,0,0,0,1,2,2,5,2,3,2,2,1,More organized competitions,Not satisfied with gym hours
 Female,20-24,200,Off-campus,"<20,000",11–20 min,5,5,4,3,1,5,1,2,2,1,1,1,4,1,1,0,1,1,Swimming pool,6–10 min,Fair,Yes,0,0,1,1,1,1,3,5,1,4,3,4,3,5,Safer environment for evening activities,Good initiative
 Female,25-29,200,Off-campus,"20,000–39,999",≤5 min,4,5,4,2,5,3,5,5,4,2,4,5,5,0,0,0,0,0,None,11–20 min,Fair,No,0,0,0,0,0,1,1,1,5,3,2,2,3,2,Safer environment for evening activities,Good initiative
-Male,25-29,300,Off-campus,"20,000–39,999",>20 min,4,3,2,2,3,5,2,2,5,5,2,1,3,1,0,0,0,0,Music hall,>20 min,Fair,Yes,1,1,1,1,1,0,5,2,5,2,2,2,4,3,Safer environment for evening activities,Great work so far
-Female,30+,500,Off-campus,"<20,000",>20 min,4,5,1,4,2,4,5,5,3,5,2,4,3,1,0,0,0,1,Music hall,6–10 min,Poor,Yes,1,0,1,1,1,0,5,5,4,3,2,3,1,2,Swimming pool should be added,Safety is a concern at night
+Male,25-29,300,Off-campus,"20,000–39,999",>20 min,4,3,2,2,3,5,2,2,5,5,2,1,3,1,0,0,0,0,None,>20 min,Fair,Yes,1,1,1,1,1,0,5,2,5,2,2,2,4,3,Safer environment for evening activities,Great work so far
+Female,30+,500,Off-campus,"<20,000",>20 min,4,5,1,4,2,4,5,5,3,5,2,4,3,1,0,0,0,1,None,6–10 min,Poor,Yes,1,0,1,1,1,0,5,5,4,3,2,3,1,2,Swimming pool should be added,Safety is a concern at night
 Male,25-29,400,Off-campus,"20,000–39,999",>20 min,3,4,3,3,3,2,4,4,3,1,4,5,2,1,0,0,0,1,None,>20 min,Excellent,Yes,1,1,0,1,0,0,4,4,2,4,4,2,4,2,Build more shaded walkways,Safety is a concern at night
 Male,20-24,200,Off-campus,"20,000–39,999",≤5 min,5,4,3,5,1,5,4,3,3,4,1,3,4,0,0,0,1,0,None,>20 min,Fair,No,0,0,0,0,0,1,2,3,4,5,5,3,5,2,Safer environment for evening activities,Facilities are fine
 Male,Below 20,100,On-campus,"40,000–59,999",6–10 min,3,4,3,3,2,1,5,2,2,3,4,5,2,1,1,1,0,0,None,≤5 min,Fair,No,1,0,1,0,0,1,1,3,3,2,5,1,1,2,Better lighting around the football field,Facilities are fine
 Male,30+,100,Off-campus,"60,000+",>20 min,1,3,5,5,1,3,4,1,2,3,3,2,3,0,1,0,0,1,None,≤5 min,Very Good,Yes,1,1,0,0,1,1,1,3,5,1,1,2,1,5,Build more shaded walkways,Great work so far
 Female,25-29,100,Off-campus,"60,000+",≤5 min,5,5,4,5,3,4,1,3,4,1,1,2,2,0,0,0,0,1,None,≤5 min,Excellent,Yes,0,1,1,0,0,0,3,3,1,4,5,3,3,3,More organized competitions,No comment
-Female,20-24,300,On-campus,"<20,000",≤5 min,3,4,2,4,4,5,5,1,5,4,5,3,2,1,0,0,0,0,Music hall,11–20 min,Fair,No,0,0,1,0,1,1,4,2,1,3,2,3,4,3,More organized competitions,Safety is a concern at night
-Female,Below 20,100,On-campus,"<20,000",≤5 min,3,2,1,1,4,1,2,3,3,5,1,1,4,0,0,0,1,0,Music hall,>20 min,Very Good,Yes,0,1,1,1,0,0,3,3,5,2,4,2,4,5,Safer environment for evening activities,Safety is a concern at night
-Female,20-24,400,On-campus,"<20,000",11–20 min,3,5,2,3,3,5,5,3,4,3,1,2,4,0,0,0,0,0,Music hall,11–20 min,Excellent,No,1,0,0,1,1,1,5,1,2,5,5,5,2,2,Swimming pool should be added,Nothing else
+Female,20-24,300,On-campus,"<20,000",≤5 min,3,4,2,4,4,5,5,1,5,4,5,3,2,1,0,0,0,0,None,11–20 min,Fair,No,0,0,1,0,1,1,4,2,1,3,2,3,4,3,More organized competitions,Safety is a concern at night
+Female,Below 20,100,On-campus,"<20,000",≤5 min,3,2,1,1,4,1,2,3,3,5,1,1,4,0,0,0,1,0,None,>20 min,Very Good,Yes,0,1,1,1,0,0,3,3,5,2,4,2,4,5,Safer environment for evening activities,Safety is a concern at night
+Female,20-24,400,On-campus,"<20,000",11–20 min,3,5,2,3,3,5,5,3,4,3,1,2,4,0,0,0,0,0,None,11–20 min,Excellent,No,1,0,0,1,1,1,5,1,2,5,5,5,2,2,Swimming pool should be added,Nothing else
 Male,20-24,400,Off-campus,"40,000–59,999",≤5 min,2,3,4,3,4,2,2,3,4,5,4,2,4,0,1,1,0,0,None,6–10 min,Fair,No,0,1,1,1,1,1,5,4,4,4,3,5,4,3,More basketball courts would help,Safety is a concern at night
-Male,25-29,200,Off-campus,"40,000–59,999",11–20 min,1,1,5,4,5,1,3,5,5,4,2,5,3,1,0,1,1,0,Music hall,6–10 min,Good,Yes,0,1,1,0,1,0,1,3,2,1,4,4,1,3,More organized competitions,Good initiative
+Male,25-29,200,Off-campus,"40,000–59,999",11–20 min,1,1,5,4,5,1,3,5,5,4,2,5,3,1,0,1,1,0,None,6–10 min,Good,Yes,0,1,1,0,1,0,1,3,2,1,4,4,1,3,More organized competitions,Good initiative
 Male,Below 20,200,Off-campus,"20,000–39,999",≤5 min,4,1,1,1,5,1,1,1,1,3,1,5,1,0,1,0,1,1,Library garden,6–10 min,Good,No,0,1,0,0,1,1,3,1,2,5,3,1,1,5,Cheaper gym membership,Nothing else
 Male,20-24,200,On-campus,"<20,000",≤5 min,3,3,3,2,5,4,2,3,5,2,2,2,2,1,1,1,1,0,Swimming pool,>20 min,Fair,No,1,1,0,0,1,0,4,1,5,4,4,5,5,4,Safer environment for evening activities,Not satisfied with gym hours
-Male,20-24,200,On-campus,"40,000–59,999",6–10 min,3,2,1,3,1,3,3,2,1,3,2,5,1,0,1,1,1,0,Music hall,6–10 min,Good,No,0,0,0,0,1,0,5,5,4,4,5,1,3,1,Build more shaded walkways,Facilities are fine
+Male,20-24,200,On-campus,"40,000–59,999",6–10 min,3,2,1,3,1,3,3,2,1,3,2,5,1,0,1,1,1,0,None,6–10 min,Good,No,0,0,0,0,1,0,5,5,4,4,5,1,3,1,Build more shaded walkways,Facilities are fine
 Female,25-29,500,On-campus,"<20,000",>20 min,3,1,3,3,1,5,4,5,5,4,4,5,5,0,0,1,0,0,Swimming pool,≤5 min,Good,Yes,0,0,0,1,1,0,4,2,5,5,3,2,5,3,More organized competitions,No comment
 Male,20-24,300,On-campus,"<20,000",≤5 min,4,4,5,1,3,4,3,2,1,1,2,5,1,1,1,1,1,0,None,6–10 min,Good,No,1,1,1,1,0,1,3,2,5,5,1,1,5,4,Safer environment for evening activities,Facilities are fine
 Female,20-24,100,On-campus,"<20,000",6–10 min,3,5,4,5,5,5,1,3,4,1,2,5,4,1,1,1,1,1,Library garden,6–10 min,Excellent,No,1,0,0,1,1,0,5,5,1,1,4,4,4,4,More organized competitions,Good initiative
-Female,30+,300,Off-campus,"20,000–39,999",11–20 min,4,3,1,3,3,5,5,2,2,1,4,5,5,0,1,1,0,1,Music hall,11–20 min,Excellent,No,1,1,1,1,0,0,4,5,1,4,2,2,4,5,Nothing,Needs more equipment
+Female,30+,300,Off-campus,"20,000–39,999",11–20 min,4,3,1,3,3,5,5,2,2,1,4,5,5,0,1,1,0,1,None,11–20 min,Excellent,No,1,1,1,1,0,0,4,5,1,4,2,2,4,5,Nothing,Needs more equipment
 Female,20-24,400,Off-campus,"60,000+",11–20 min,1,4,3,4,2,4,4,2,4,3,2,3,4,0,0,1,0,0,Swimming pool,6–10 min,Excellent,No,0,1,0,1,0,1,2,4,4,3,4,1,5,3,Nothing,Facilities are fine
 Female,Below 20,200,On-campus,"60,000+",6–10 min,2,4,3,3,1,4,5,2,1,5,2,3,2,1,1,0,1,0,Swimming pool,≤5 min,Poor,No,0,1,0,0,1,1,4,4,3,5,5,5,5,4,More organized competitions,Nothing else
 Male,30+,300,Off-campus,"60,000+",6–10 min,1,3,5,3,2,5,2,5,4,1,2,1,5,1,1,0,1,1,Swimming pool,11–20 min,Excellent,Yes,0,0,0,1,0,0,1,2,4,1,5,5,3,5,Swimming pool should be added,No comment
 Male,Below 20,100,On-campus,"<20,000",≤5 min,3,5,2,2,5,1,1,3,2,4,4,3,1,0,0,0,0,1,Swimming pool,≤5 min,Very Good,No,1,0,1,0,1,0,3,2,1,1,1,3,4,2,Swimming pool should be added,Nothing else
 Male,Below 20,100,On-campus,"60,000+",6–10 min,4,2,2,3,1,4,4,3,4,3,1,2,3,1,0,1,1,0,Swimming pool,6–10 min,Fair,Yes,0,0,1,0,1,0,2,2,1,4,3,3,3,1,Build more shaded walkways,Nothing else
 Male,20-24,300,Off-campus,"40,000–59,999",6–10 min,4,1,1,3,4,4,4,1,3,3,2,4,1,0,1,0,0,1,None,11–20 min,Fair,No,0,0,1,1,0,1,3,5,2,3,4,3,1,2,Nothing,Good initiative
-Male,20-24,300,On-campus,"<20,000",11–20 min,2,3,2,1,5,5,3,3,2,1,5,3,5,0,0,0,0,0,Music hall,≤5 min,Good,Yes,0,0,1,1,1,1,4,2,3,2,3,2,2,5,Safer environment for evening activities,Safety is a concern at night
+Male,20-24,300,On-campus,"<20,000",11–20 min,2,3,2,1,5,5,3,3,2,1,5,3,5,0,0,0,0,0,None,≤5 min,Good,Yes,0,0,1,1,1,1,4,2,3,2,3,2,2,5,Safer environment for evening activities,Safety is a concern at night
 Male,Below 20,100,On-campus,"<20,000",6–10 min,2,3,3,1,1,3,3,4,5,4,3,4,2,1,0,0,0,1,Swimming pool,6–10 min,Fair,No,1,1,1,1,1,1,4,2,1,5,3,1,4,1,Cheaper gym membership,Needs more equipment
 Female,20-24,300,On-campus,"20,000–39,999",>20 min,3,5,3,3,1,3,1,3,5,4,2,4,3,0,1,1,0,1,Library garden,6–10 min,Excellent,Yes,0,1,1,0,0,1,5,3,4,3,1,1,3,3,Safer environment for evening activities,Great work so far
 Male,Below 20,100,On-campus,"20,000–39,999",11–20 min,4,2,4,2,1,2,4,2,1,2,3,5,5,1,0,1,1,0,Library garden,>20 min,Poor,Yes,0,1,1,1,1,1,3,1,1,1,3,4,5,1,Swimming pool should be added,Great work so far
 Female,25-29,400,On-campus,"60,000+",≤5 min,4,3,5,1,1,1,2,5,2,3,2,2,1,1,1,0,0,0,None,11–20 min,Excellent,No,0,0,1,1,1,1,5,2,3,5,1,1,3,2,Cheaper gym membership,Nothing else
 Male,25-29,500,Off-campus,"20,000–39,999",11–20 min,4,5,3,1,2,5,4,5,5,5,4,4,2,1,1,1,0,1,None,11–20 min,Very Good,No,0,0,1,0,1,1,5,5,4,1,5,1,1,2,More basketball courts would help,Good initiative
-Male,25-29,400,Off-campus,"40,000–59,999",>20 min,5,4,5,2,3,3,2,5,5,4,2,2,1,1,1,1,0,1,Music hall,11–20 min,Very Good,No,1,0,1,0,0,0,2,1,2,1,5,2,3,4,More basketball courts would help,Facilities are fine
+Male,25-29,400,Off-campus,"40,000–59,999",>20 min,5,4,5,2,3,3,2,5,5,4,2,2,1,1,1,1,0,1,None,11–20 min,Very Good,No,1,0,1,0,0,0,2,1,2,1,5,2,3,4,More basketball courts would help,Facilities are fine
 Male,Below 20,100,On-campus,"20,000–39,999",≤5 min,2,3,2,4,4,2,3,2,4,3,3,1,5,0,1,1,1,0,Swimming pool,>20 min,Excellent,Yes,0,0,0,0,0,0,2,2,4,4,4,1,1,2,Nothing,Needs more equipment
-Male,Below 20,400,On-campus,"20,000–39,999",11–20 min,5,1,3,2,2,3,3,1,2,3,1,2,4,0,1,1,1,1,Music hall,≤5 min,Fair,Yes,0,1,0,1,1,0,4,1,3,3,5,3,3,3,Swimming pool should be added,Needs more equipment
+Male,Below 20,400,On-campus,"20,000–39,999",11–20 min,5,1,3,2,2,3,3,1,2,3,1,2,4,0,1,1,1,1,None,≤5 min,Fair,Yes,0,1,0,1,1,0,4,1,3,3,5,3,3,3,Swimming pool should be added,Needs more equipment
 Female,20-24,300,On-campus,"20,000–39,999",11–20 min,5,2,3,1,4,3,5,1,4,5,5,1,5,1,0,0,0,0,Library garden,11–20 min,Excellent,Yes,1,0,0,1,1,1,2,1,3,2,2,3,3,4,More organized competitions,Facilities are fine
-Male,20-24,200,On-campus,"60,000+",6–10 min,5,5,2,1,5,4,5,3,5,5,5,1,3,0,1,1,0,1,Music hall,>20 min,Fair,Yes,1,0,1,0,0,1,1,1,4,3,1,4,3,2,Swimming pool should be added,Not satisfied with gym hours
-Male,25-29,300,On-campus,"60,000+",≤5 min,3,3,4,3,4,1,1,3,1,1,2,5,4,0,0,0,1,0,Music hall,≤5 min,Fair,Yes,1,0,0,1,1,0,3,1,3,5,1,5,3,3,Better lighting around the football field,Facilities are fine
+Male,20-24,200,On-campus,"60,000+",6–10 min,5,5,2,1,5,4,5,3,5,5,5,1,3,0,1,1,0,1,None,>20 min,Fair,Yes,1,0,1,0,0,1,1,1,4,3,1,4,3,2,Swimming pool should be added,Not satisfied with gym hours
+Male,25-29,300,On-campus,"60,000+",≤5 min,3,3,4,3,4,1,1,3,1,1,2,5,4,0,0,0,1,0,None,≤5 min,Fair,Yes,1,0,0,1,1,0,3,1,3,5,1,5,3,3,Better lighting around the football field,Facilities are fine
 Female,Below 20,100,On-campus,"20,000–39,999",6–10 min,1,3,5,1,3,5,4,2,5,3,5,4,3,0,1,1,1,0,Swimming pool,6–10 min,Poor,Yes,1,1,1,1,1,0,2,4,5,2,3,4,4,4,More basketball courts would help,Nothing else
 Male,20-24,400,Off-campus,"60,000+",11–20 min,3,3,3,3,3,5,4,2,4,3,4,4,4,0,0,0,1,1,Swimming pool,>20 min,Fair,Yes,1,1,0,0,1,1,5,2,3,3,3,2,3,5,Nothing,Great work so far
 Female,20-24,400,On-campus,"40,000–59,999",>20 min,5,3,2,3,4,3,4,1,5,3,4,4,4,1,0,1,0,1,Library garden,>20 min,Very Good,Yes,0,0,0,1,0,0,4,4,1,3,2,1,1,3,Build more shaded walkways,Safety is a concern at night
-Female,20-24,200,On-campus,"20,000–39,999",6–10 min,3,5,5,4,4,4,5,2,3,2,4,5,3,0,0,1,1,1,Music hall,6–10 min,Fair,Yes,1,1,0,0,0,0,3,5,5,3,5,1,1,2,Build more shaded walkways,Great work so far
+Female,20-24,200,On-campus,"20,000–39,999",6–10 min,3,5,5,4,4,4,5,2,3,2,4,5,3,0,0,1,1,1,None,6–10 min,Fair,Yes,1,1,0,0,0,0,3,5,5,3,5,1,1,2,Build more shaded walkways,Great work so far
 Male,Below 20,300,On-campus,"40,000–59,999",11–20 min,1,2,2,2,4,1,4,5,5,5,3,5,1,1,1,1,1,1,None,11–20 min,Good,No,0,0,1,0,1,0,4,2,1,2,4,3,5,1,Nothing,Not satisfied with gym hours
-Male,20-24,200,On-campus,"<20,000",11–20 min,5,4,4,5,3,4,1,4,1,1,3,3,2,1,0,1,0,0,Music hall,≤5 min,Good,Yes,0,0,0,0,0,0,3,2,4,5,5,1,1,5,More basketball courts would help,Not satisfied with gym hours
+Male,20-24,200,On-campus,"<20,000",11–20 min,5,4,4,5,3,4,1,4,1,1,3,3,2,1,0,1,0,0,None,≤5 min,Good,Yes,0,0,0,0,0,0,3,2,4,5,5,1,1,5,More basketball courts would help,Not satisfied with gym hours
 Male,20-24,400,Off-campus,"40,000–59,999",≤5 min,4,5,3,4,5,5,1,3,4,1,1,2,3,0,1,1,1,0,Library garden,6–10 min,Good,No,1,0,0,1,1,0,4,1,5,4,2,5,4,5,More basketball courts would help,Facilities are fine
-Male,25-29,500,Off-campus,"<20,000",>20 min,5,2,2,2,3,5,5,4,4,3,5,2,3,0,0,0,0,1,Music hall,>20 min,Good,Yes,0,0,1,1,1,1,4,2,2,3,3,3,2,3,More organized competitions,Facilities are fine
+Male,25-29,500,Off-campus,"<20,000",>20 min,5,2,2,2,3,5,5,4,4,3,5,2,3,0,0,0,0,1,None,>20 min,Good,Yes,0,0,1,1,1,1,4,2,2,3,3,3,2,3,More organized competitions,Facilities are fine
 Female,25-29,400,Off-campus,"<20,000",6–10 min,5,1,5,5,2,4,1,2,3,4,5,4,5,0,1,1,1,1,Library garden,6–10 min,Poor,Yes,0,1,1,1,1,0,4,5,1,1,2,1,5,5,More organized competitions,Facilities are fine
 Male,20-24,300,Off-campus,"20,000–39,999",≤5 min,4,3,4,4,3,2,1,4,4,4,3,4,4,0,1,0,0,0,None,6–10 min,Fair,Yes,0,1,1,1,1,1,3,2,4,5,4,2,4,2,Swimming pool should be added,Not satisfied with gym hours
-Female,25-29,400,On-campus,"60,000+",6–10 min,4,1,5,4,5,3,1,5,4,2,3,1,3,0,0,0,1,0,Music hall,≤5 min,Very Good,No,1,0,0,1,1,1,4,1,4,1,3,3,3,5,More basketball courts would help,No comment
-Male,25-29,400,On-campus,"<20,000",6–10 min,5,4,4,3,4,4,5,2,5,3,5,1,1,0,0,0,1,0,Music hall,11–20 min,Fair,No,0,1,0,1,1,0,1,3,5,2,3,5,1,1,Nothing,Needs more equipment
+Female,25-29,400,On-campus,"60,000+",6–10 min,4,1,5,4,5,3,1,5,4,2,3,1,3,0,0,0,1,0,None,≤5 min,Very Good,No,1,0,0,1,1,1,4,1,4,1,3,3,3,5,More basketball courts would help,No comment
+Male,25-29,400,On-campus,"<20,000",6–10 min,5,4,4,3,4,4,5,2,5,3,5,1,1,0,0,0,1,0,None,11–20 min,Fair,No,0,1,0,1,1,0,1,3,5,2,3,5,1,1,Nothing,Needs more equipment
 Male,20-24,400,On-campus,"40,000–59,999",11–20 min,1,3,2,3,2,5,1,3,3,2,5,4,1,1,1,0,0,0,Library garden,11–20 min,Poor,Yes,1,1,1,1,1,1,1,3,3,5,5,3,1,2,Better lighting around the football field,Good initiative
 Female,Below 20,200,On-campus,"60,000+",≤5 min,5,3,4,1,3,2,4,5,4,2,1,1,5,1,1,1,1,1,None,≤5 min,Fair,No,1,1,1,0,1,1,5,4,5,4,3,5,3,4,More organized competitions,Great work so far
-Female,20-24,200,On-campus,"20,000–39,999",≤5 min,5,3,4,4,2,5,4,3,1,5,3,5,5,1,1,0,1,1,Music hall,≤5 min,Very Good,Yes,1,0,1,1,1,0,4,3,5,4,5,5,3,2,Swimming pool should be added,Safety is a concern at night
+Female,20-24,200,On-campus,"20,000–39,999",≤5 min,5,3,4,4,2,5,4,3,1,5,3,5,5,1,1,0,1,1,None,≤5 min,Very Good,Yes,1,0,1,1,1,0,4,3,5,4,5,5,3,2,Swimming pool should be added,Safety is a concern at night
