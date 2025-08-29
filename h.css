@@ -655,16 +655,16 @@ h1 span::after {
 
 .contact-links a {
   text-decoration: none;
-  color: #808000;
+  color: #666600;
 }
 
 .contact-links a:hover,
 .contact-links a:focus {
-  color: #808000;
+  color: #666600;
   text-decoration: underline;
 }
 
-.contact-links a span { color: #808000; }
+.contact-links a span { color: #666600; }
 
 /* Contact form */
 .contact-form {
