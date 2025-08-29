@@ -357,7 +357,7 @@ h1 span::after {
 .section-title h2 {
   font-size: 36px;
   display: inline-block;
-  color: #800000; /* Section A: About Me, Get In Touch (default) */
+  color: #800000;
 }
 
 .section-title h2::after {
@@ -371,25 +371,18 @@ h1 span::after {
   background-color: #6c63ff; /* default underline color (bluish) */
 }
 
-/* ---- SPECIFIC OVERRIDES per your request ---- */
-
-/* 1) "My Projects" heading color -> same as the bluish underline / 'Nosawema' */
 .projects .section-title h2 {
   color: var(--primary);
 }
 
-/* 2) "About Me" underline should be maroon to match the text */
 .about .section-title h2::after {
   background-color: #800000;
 }
 
-/* 3) "Get In Touch" underline should also be maroon */
 .contact .section-title h2::after {
   background-color: #800000;
 }
 
-/* 3.B) Use a curvy/modern classy font for the contact lead paragraph only.
-   Color and spacing remain unchanged. */
 .contact-info p {
   color: #000000;
   margin-bottom: 30px;
@@ -397,8 +390,6 @@ h1 span::after {
   font-size: 28px;
   font-weight: 700;
 }
-
-/* ----------------------------------------------- */
 
 .about-content {
   display: flex;
@@ -408,18 +399,18 @@ h1 span::after {
 
 .about-text {
   max-width: 600px;
-  color: #800000; /* Section A: Developer & Problem Solver base color */
+  color: #800000;
 }
 
 .about-text h3 {
   font-size: 28px;
   margin-bottom: 20px;
-  color: #800000; /* Section A: Developer & Problem Solver */
+  color: #800000;
 }
 
 .about-text p {
   margin-bottom: 20px;
-  color: #000000; /* Section B paragraphs in About */
+  color: #000000;
 }
 
 .skills {
@@ -429,7 +420,7 @@ h1 span::after {
 .skills h4 {
   margin-bottom: 15px;
   font-size: 20px;
-  color: #800000; /* Section A: Technical Skills */
+  color: #800000;
 }
 
 .skill-tags {
@@ -620,17 +611,13 @@ h1 span::after {
 .contact-info h3 {
   font-size: 24px;
   margin-bottom: 20px;
-  color: #800000; /* Section A: Let’s Talk */
+  color: #800000;
 }
-
-/* contact lead paragraph color/font handled above per request */
-/* .contact-info p { color and font applied earlier } */
 
 .contact-links {
   list-style: none;
 }
 
-/* Section D: Icons white */
 .contact-links li {
   margin-bottom: 15px;
   display: flex;
@@ -639,7 +626,7 @@ h1 span::after {
 
 .contact-links li i {
   margin-right: 10px;
-  color: #ffffff; /* was #6c63ff */
+  color: #ffffff;
 }
 
 /* Contact form */
@@ -799,7 +786,6 @@ footer .social-links a:hover {
   }
 }
 
-/* cod dyal message lia kaywsalk ta7t contact */
 .form-message {
   margin: 15px 0;
   padding: 12px 20px;
@@ -878,25 +864,26 @@ footer {
   font-size: 16px;
 }
 
-/* Section D (ensure) */
 .contact-links i {
   margin-right: 8px;
-  color: #ffffff; /* was #4a4a4a */
+  color: #ffffff;
   font-size: 18px;
 }
 
-/* Section C: Email/Location link text color */
 .contact-links a {
   text-decoration: none;
-  color: #808000; /* was #333 / inherit */
+  color: #808000;
 }
 
-/* Section C: keep same color on hover/focus */
 .contact-links a:hover,
 .contact-links a:focus {
   color: #808000;
   text-decoration: underline;
 }
 
-/* Keep spans inside links aligned with the chosen color */
 .contact-links a span { color: #808000; }
+
+/* Hero Section Title Customization */
+.hero-text h1 {
+  font-size: 32px;
+}
