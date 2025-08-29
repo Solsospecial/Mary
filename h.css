@@ -629,6 +629,43 @@ h1 span::after {
   color: #ffffff;
 }
 
+.contact-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-links li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contact-links i {
+  margin-right: 8px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* Location icon override */
+.contact-links li i.fa-map-marker-alt {
+  color: #800000; /* maroon */
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #808000;
+}
+
+.contact-links a:hover,
+.contact-links a:focus {
+  color: #808000;
+  text-decoration: underline;
+}
+
+.contact-links a span { color: #808000; }
+
 /* Contact form */
 .contact-form {
   flex: 1;
@@ -850,38 +887,6 @@ footer {
 	justify-content: space-between;
   }
 }
-
-.contact-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.contact-links li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-
-.contact-links i {
-  margin-right: 8px;
-  color: #ffffff;
-  font-size: 18px;
-}
-
-.contact-links a {
-  text-decoration: none;
-  color: #808000;
-}
-
-.contact-links a:hover,
-.contact-links a:focus {
-  color: #808000;
-  text-decoration: underline;
-}
-
-.contact-links a span { color: #808000; }
 
 /* Hero Section Title Customization */
 .hero-text h1 {
