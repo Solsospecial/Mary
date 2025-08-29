@@ -656,6 +656,8 @@ h1 span::after {
 .contact-links a {
   text-decoration: none;
   color: #666600;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .contact-links a:hover,
