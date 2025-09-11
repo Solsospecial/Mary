@@ -414,12 +414,12 @@ h1 span::after {
 }
 
 .skills {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .skills h4 {
-  margin-bottom: 15px;
-  font-size: 20px;
+  margin-bottom: 30px;
+  font-size: 28px;
   color: #800000;
 }
 
