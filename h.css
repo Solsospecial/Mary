@@ -423,7 +423,7 @@ h1 span::after {
   color: #800000;
 }
 
-.skill-tags {
+.skill-containers {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
