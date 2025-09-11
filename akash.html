@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Professional Portfolio</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<style>
+		.hero-bg {
+			background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('ph.png');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+		
+		/* Interactive background particles */
+		.particles-container {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			overflow: hidden;
+		}
+		
+		.particle {
+			position: absolute;
+			border-radius: 50%;
+			background: rgba(212, 175, 55, 0.3);
+			box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+			animation: float 15s infinite ease-in-out;
+		}
+		
+		@keyframes float {
+			0% {
+				transform: translateY(0) translateX(0);
+				opacity: 0;
+			}
+			10% {
+				opacity: 0.8;
+			}
+			90% {
+				opacity: 0.8;
+			}
+			100% {
+				transform: translateY(-100px) translateX(20px);
+				opacity: 0;
+			}
+		}
+		
+		/* Gradient animation */
+		@keyframes gradientShift {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+		
+		.animated-bg {
+			background: linear-gradient(-45deg, #000, #111, #000);
+			background-size: 400% 400%;
+			animation: gradientShift 15s ease infinite;
+		}
+		
+		.section-divider {
+			height: 100px;
+			background: linear-gradient(to bottom, transparent, #000, transparent);
+			clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+		}
+		
+		.project-card {
+			transition: transform 0.3s ease, box-shadow 0.3s ease;
+		}
+		
+		.project-card:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+		}
+		
+		/* Gold theme elements */
+		.gold-text {
+			color: #D4AF37;
+		}
+		
+		.gold-bg {
+			background-color: #D4AF37;
+		}
+		
+		.gold-border {
+			border-color: #D4AF37;
+		}
+		
+		/* Animated white shadow for profile image */
+		.profile-shadow {
+			box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+			animation: shadow-pulse 2s infinite;
+		}
+		
+		@keyframes shadow-pulse {
+			0% {
+				box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+			}
+			50% {
+				box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+			}
+			100% {
+				box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+			}
+		}
+		
+		.hover-gold:hover {
+			color: #D4AF37;
+		}
+		
+		.hover-gold-bg:hover {
+			background-color: #D4AF37;
+		}
+		
+		.hover-gold-border:hover {
+			border-color: #D4AF37;
+		}
+
+		/* Zoom effect on hover */
+		.hovered-element:hover {
+			transform: scale(1.2);
+		}
+
+		.hovered-element {
+			transition: transform 0.3s ease;
+		}
+
+		/* Profile image zoom effect */
+		.profile-hover:hover {
+			transform: scale(1.7);
+		}
+
+		.profile-hover {
+			transition: transform 0.3s ease;
+		}
+
+		/* Skills section zoom effect */
+		.skills-hover:hover {
+			transform: scale(1.1);
+		}
+
+		.skills-hover {
+			transition: transform 0.3s ease;
+		}
+
+		/* Revealing Light Animation */
+		.revealing-light {
+			position: relative;
+			color: #D4AF37;
+			background: linear-gradient(90deg, #D4AF37, #fff, #D4AF37);
+			background-size: 200% auto;
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+			animation: revealing-light 5s linear infinite;
+		}
+
+		@keyframes revealing-light {
+			0% {
+				background-position: 200% center;
+			}
+			100% {
+				background-position: -200% center;
+			}
+		}
+
+		/* Typing Animation */
+		.typewriter {
+			color: #D4AF37;
+			font-family: inherit;
+			display: inline-block;
+			border-right: 3px solid #D4AF37;
+			animation: blink-caret 0.75s step-end infinite;
+		}
+
+		.typewriter-subtitle {
+			color: #D4AF37;
+			font-family: inherit;
+			display: inline-block;
+			border-right: 3px solid #D4AF37;
+			animation: blink-caret 0.75s step-end infinite;
+			opacity: 0;
+		}
+
+		/* Revealing Light effect after typing */
+		.revealing-light-active {
+			position: relative;
+			color: #D4AF37;
+			background: linear-gradient(90deg, #D4AF37, #fff, #D4AF37);
+			background-size: 200% auto;
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+			animation: revealing-light 5s linear infinite;
+		}
+
+		@keyframes blink-caret {
+			from, to {
+				border-color: transparent;
+			}
+			50% {
+				border-color: #D4AF37;
+			}
+		}
+
+		/* Hide cursor after animation completes */
+		.typewriter.animation-complete,
+		.typewriter-subtitle.animation-complete {
+			border-right: none;
+		}
+
+		/* Fade in animation for buttons */
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+				transform: translateY(20px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+	</style>
+</head>
+<body class="bg-black text-white font-sans">
+	<!-- Interactive Background Particles -->
+	<div class="particles-container" id="particles"></div>
+	
+	<!-- Navigation -->
+	<nav class="fixed w-full bg-black bg-opacity-90 z-50">
+		<div class="container mx-auto px-6 py-4">
+			<div class="flex justify-between items-center">
+				<div class="text-2xl font-bold gold-text">PORTFOLIO</div>
+				<div class="hidden md:flex space-x-8">
+					<a href="#about" class="text-white hover:text-gray-300 transition hover-gold">About</a>
+					<a href="#education" class="text-white hover:text-gray-300 transition hover-gold">Education</a>
+					<a href="#skills" class="text-white hover:text-gray-300 transition hover-gold">Skills</a>
+					<a href="#projects" class="text-white hover:text-gray-300 transition hover-gold">Projects</a>
+					<a href="#contact" class="text-white hover:text-gray-300 transition hover-gold">Contact</a>
+					<a href="#links" class="text-white hover:text-gray-300 transition hover-gold">Links</a>
+				</div>
+				<button class="md:hidden text-white focus:outline-none" id="menu-toggle">
+					<i class="fas fa-bars text-2xl"></i>
+				</button>
+			</div>
+			<div class="md:hidden hidden bg-black bg-opacity-90 w-full mt-2 py-2" id="mobile-menu">
+				<a href="#about" class="block px-4 py-2 text-white hover:bg-gray-800 hover-gold">About</a>
+				<a href="#education" class="block px-4 py-2 text-white hover:bg-gray-800 hover-gold">Education</a>
+				<a href="#skills" class="block px-4 py-2 text-white hover:bg-gray-800 hover-gold">Skills</a>
+				<a href="#projects" class="block px-4 py-2 text-white hover:bg-gray-800 hover-gold">Projects</a>
+				<a href="#contact" class="block px-4 py-2 text-white hover:bg-gray-800 hover-gold">Contact</a>
+				<a href="#links" class="block px-4 py-2 text-white hover:bg-gray-800 hover-gold">Links</a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<header class="hero-bg min-h-screen flex items-center justify-center text-white pt-20">
+		<div class="container mx-auto px-6 text-center">
+			<h1 class="text-5xl md:text-7xl font-bold mb-6">
+				<span class="typewriter" id="main-title"></span>
+			</h1>
+			<p class="text-xl md:text-2xl mb-8">
+				<span class="typewriter-subtitle" id="subtitle"></span>
+			</p>
+			<div class="flex justify-center space-x-4" id="hero-buttons" style="opacity: 0;">
+				<a href="#projects" class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition hover-gold-bg">View Work</a>
+				<a href="#contact" class="border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition hover-gold-border">Contact Me</a>
+			</div>
+		</div>
+	</header>
+
+	<!-- About Section -->
+	<section id="about" class="py-20 bg-black">
+		<div class="container mx-auto px-6">
+			<h2 class="text-4xl font-bold text-center mb-16 gold-text">ABOUT ME</h2>
+			<div class="flex flex-col md:flex-row items-center">
+				<div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+					<img src="ph.png" 
+						 alt="Profile" class="rounded-full w-64 h-64 object-cover mx-auto border-4 gold-border profile-shadow profile-hover">
+				</div>
+				<div class="md:w-1/2">
+					<h3 class="text-2xl font-semibold mb-4 gold-text">Who I Am</h3>
+					<p class="text-white mb-6 leading-relaxed">
+						I'm a passionate AI Software Developer with over 1.3 years of experience in building modern, responsive websites, cloud development and AI applications. My expertise includes front-end development, back-end development, AI automation, and AI applications.
+					</p>
+					<p class="text-white mb-6 leading-relaxed">
+						True intelligence isn’t just about solving problems—it’s about designing systems that empower others to solve them reliably, securely, and at scale.
+					</p>
+					<div class="flex flex-wrap gap-4">
+						<div class="gold-bg text-black px-4 py-2 rounded-full font-semibold">AI Software Developer</div>
+						<div class="gold-bg text-black px-4 py-2 rounded-full font-semibold">AI Automation Developer</div>
+						<div class="gold-bg text-black px-4 py-2 rounded-full font-semibold">Web Developer</div>
+						<div class="gold-bg text-black px-4 py-2 rounded-full font-semibold">Cloud Developer</div>
+						<div class="gold-bg text-black px-4 py-2 rounded-full font-semibold">Problem Solving</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Education Section -->
+	<section id="education" class="py-20 bg-black">
+		<div class="container mx-auto px-6">
+			<h2 class="text-4xl font-bold text-center mb-16 gold-text">EDUCATION</h2>
+			<div class="max-w-3xl mx-auto">
+				<!-- Education Item 1 -->
+				<div class="mb-10 relative pl-8 border-l-2 border-gray-700">
+					<div class="absolute -left-2 top-0 w-4 h-4 rounded-full gold-bg"></div>
+					<div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+						<span class="text-gray-400 text-sm">2020 - 2024</span>
+						<h3 class="text-xl font-bold text-white mt-2">Bachelor of Information Science and Engineering</h3>
+						<p class="text-gray-300 font-semibold mt-1">NIE Institute of Technology, Mysuru</p>
+						<p class="text-white mt-3">Graduated with honors. Specialized in Artificial Intelligence and Machine Learning. Completed thesis on "Deep Learning Applications in Natural Language Processing".</p>
+					</div>
+				</div>
+				
+				<!-- Education Item 2 -->
+				<div class="mb-10 relative pl-8 border-l-2 border-gray-700">
+					<div class="absolute -left-2 top-0 w-4 h-4 rounded-full gold-bg"></div>
+					<div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+						<span class="text-gray-400 text-sm">2018 - 2020</span>
+						<h3 class="text-xl font-bold text-white mt-2">Learners PU college</h3>
+						<p class="text-gray-300 font-semibold mt-1">PCMC, Mysuru</p>
+						<p class="text-white mt-3">Physcic ,Chemistry, Mathematics, Computer Science. Science stream with Mathematics.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Experience Section -->
+	<section id="experience" class="py-20 bg-black">
+		<div class="container mx-auto px-6">
+			<h2 class="text-4xl font-bold text-center mb-16 gold-text">WORK EXPERIENCE</h2>
+			<div class="max-w-3xl mx-auto">
+				<!-- Experience Item 1 -->
+				<div class="mb-10 relative pl-8 border-l-2 border-gray-700">
+					<div class="absolute -left-2 top-0 w-4 h-4 rounded-full gold-bg"></div>
+					<div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+						<span class="text-gray-400 text-sm">(JUL)2024 - Present</span>
+						<h3 class="text-xl font-bold text-white mt-2">AI Software Developer</h3>
+						<p class="text-gray-300 font-semibold mt-1">Apollo Pharmacies Limited, Bengaluru</p>
+						<p class="text-white mt-3">Developing AI applications, automating existing applications, creating interactive websites, and deploying them in the cloud.</p>
+						<div class="flex flex-wrap gap-2 mt-4">
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Python</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">SQL</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">MYSQL</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">AWS</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Docker</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">RESTAPI</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">FLASK</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">FASTAPI</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">TENSORFLOW</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">RAG</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">LANGCHAIN</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Streamlit</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">HTML & CSS</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">HUGGINGFACE</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">GIT</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">VIBE CODING</span>						   
+						</div>
+					</div>
+				</div>
+				
+				<!-- Experience Item 2 -->
+				<div class="mb-10 relative pl-8 border-l-2 border-gray-700">
+					<div class="absolute -left-2 top-0 w-4 h-4 rounded-full gold-bg"></div>
+					<div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+						<span class="text-gray-400 text-sm">(JUL)2024 - 2024(SEP)</span>
+						<h3 class="text-xl font-bold text-white mt-2">LLM Prompt Engineer - Remote</h3>
+						<p class="text-gray-300 font-semibold mt-1">Turing, US</p>
+						<p class="text-white mt-3">- Enhanced model response quality by refining over 150 prompts using RLHF
+													and collaborative model evaluation.</p>
+													- Accelerated AI iteration cycles by 25% through structured documentation
+													and feedback loops with ML teams.</p>
+						<div class="flex flex-wrap gap-2 mt-4">
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Python</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Prompt Engineer</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Creative Thinking</span>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Experience Item 3 -->
+				<div class="relative pl-8 border-l-2 border-gray-700">
+					<div class="absolute -left-2 top-0 w-4 h-4 rounded-full gold-bg"></div>
+					<div class="bg-gray-900 p-6 rounded-lg shadow-lg">
+						<span class="text-gray-400 text-sm">(MAR)2024 - (JUL)2024</span>
+						<h3 class="text-xl font-bold text-white mt-2">AI-ML Intern</h3>
+						<p class="text-gray-300 font-semibold mt-1">Infosys, Bengaluru</p>
+						<p class="text-white mt-3">- Achieved 92% accuracy in predicting obesity risk with a machine learning
+													classification model trained on real-world health data.</p>
+													- Deployed an interactive Streamlit app that enabled real-time risk
+													assessment for over 500 users.</p>
+													- Optimized healthcare interventions by identifying top five predictive
+													factors through EDA and feature engineering.</p>
+						<div class="flex flex-wrap gap-2 mt-4">
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Pyhton</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Pandas</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">numpy</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">matplotlib</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">seaborn</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">sklearn</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">pycaret</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Streamlit</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="section-divider"></div>
+
+	<!-- Skills Section -->
+	<section id="skills" class="py-20 bg-black text-white">
+		<div class="container mx-auto px-6">
+			<h2 class="text-4xl font-bold text-center mb-16 gold-text">MY SKILLS</h2>
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+				<!-- Technical Skills -->
+				<div class="bg-blue-50 bg-opacity-10 p-8 rounded-lg border border-gray-700 skills-hover">
+					<div class="flex items-center mb-6 skills-hover">
+						<i class="fas fa-code text-2xl text-blue-400 mr-3 skills-hover"></i>
+						<h3 class="text-xl font-semibold text-white skills-hover">Technical Skills</h3>
+					</div>
+					<div class="flex flex-wrap gap-3 skills-hover">
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Python</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">SQL</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">FastAPI</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">TensorFlow</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">PyTorch</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Machine Learning</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">MYSQL</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Natural Language Processing</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Computer Vision</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Docker</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">AWS</span>
+					</div>
+				</div>
+
+				<!-- AI/ML Technologies -->
+				<div class="bg-purple-50 bg-opacity-10 p-8 rounded-lg border border-gray-700 skills-hover">
+					<div class="flex items-center mb-6 skills-hover">
+						<i class="fas fa-atom text-2xl text-purple-400 mr-3 skills-hover"></i>
+						<h3 class="text-xl font-semibold text-white skills-hover">AI/ML Technologies</h3>
+					</div>
+					<div class="flex flex-wrap gap-3 skills-hover">
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">TensorFlow</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">PyTorch</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Scikit-learn</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Pandas</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">NumPy</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">OpenCV</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Hugging Face</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">LangChain</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">N8N</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">LLM API</span>
+					</div>
+				</div>
+
+				<!-- Frameworks -->
+				<div class="bg-green-50 bg-opacity-10 p-8 rounded-lg border border-gray-700 skills-hover">
+					<div class="flex items-center mb-6 skills-hover">
+						<i class="fas fa-layer-group text-2xl text-green-400 mr-3 skills-hover"></i>
+						<h3 class="text-xl font-semibold text-white skills-hover">Frameworks</h3>
+					</div>
+					<div class="flex flex-wrap gap-3 skills-hover">
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">FastAPI</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">RestAPI</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Flask</span>
+					</div>
+				</div>
+
+				<!-- Tools & Platforms -->
+				<div class="bg-orange-50 bg-opacity-10 p-8 rounded-lg border border-gray-700 skills-hover">
+					<div class="flex items-center mb-6 skills-hover">
+						<i class="fas fa-tools text-2xl text-orange-400 mr-3 skills-hover"></i>
+						<h3 class="text-xl font-semibold text-white skills-hover">Tools & Platforms</h3>
+					</div>
+					<div class="flex flex-wrap gap-3 skills-hover">
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Git</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Docker</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Kubernetes</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">VS Code</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Cursor</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Jupyter Notebook</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">Postman</span>
+						<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold skills-hover">AWS CLI</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Projects Section -->
+	<section id="projects" class="py-20 bg-black">
+		<div class="container mx-auto px-6">
+			<h2 class="text-4xl font-bold text-center mb-16 gold-text">MY PROJECTS</h2>
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+				<!-- Project 1 -->
+				<div class="project-card bg-gray-900 rounded-lg overflow-hidden shadow-lg border border-gray-700">
+					<video src="RAG.mp4" 
+						   autoplay muted loop class="w-full h-48 object-cover">
+						<source src="C:\Portfolio\design_a_thumbnail_image_for_the_topic.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="p-6">
+						<h3 class="text-xl font-bold mb-2 text-white">🏥 Pharmacy Database Chat 👨🏼‍⚕️</h3>
+						<p class="text-gray-300 mb-4">
+Welcome to the Apollo Pharmacy Database Chat project! This interactive Streamlit application allows users to query a pharmacy database using natural language. Powered by LangChain and Google's Generative AI, it translates your questions into SQL queries and retrieves the answers from the database. No SQL knowledge required! 🚀</p>
+						<div class="flex flex-wrap gap-2 mb-4">
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Pyhton</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">SQL</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">LangChain</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">RAG</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">HuggingFace Embeddings</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">SQLAlchemy & pyodbc</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Streamlit</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">NLP</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">FAISS</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Few-Shot Learning</span>
+							 <span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Gemini_API</span>						</div>
+						<a href="https://github.com/akash247777/Chat-with-SQL-database-RAG" class="text-white font-semibold hover:underline hover-gold"><i class="fab fa-github mr-2"></i>View GitHub</a>
+					</div>
+				</div>
+				
+				<!-- Project 2 -->
+				<div class="project-card bg-gray-900 rounded-lg overflow-hidden shadow-lg border border-gray-700">
+					<video src="N8N.mp4" 
+						   autoplay muted loop class="w-full h-48 object-cover">
+						<source src="C:\Portfolio\design_a_thumbnail_image_for_the_topic.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="p-6">
+						<h3 class="text-xl font-bold mb-2 text-white">💊 Prescription Refill Reminder System (n8n Workflow)</h3>
+						<p class="text-gray-300 mb-4">This project automates prescription refill reminders using n8n. It sends daily reminders to patients via Email, WhatsApp, and Telegram—and tracks responses in a MySQL database.</p>
+						<div class="flex flex-wrap gap-2 mb-4">
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">smtp</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">mysql-database</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Twilio-api</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">whatsapp-api</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">N8N wokflow</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">telegram-reporter-bots</span>
+						</div>
+						<a href="https://github.com/akash247777/N8N" class="text-white font-semibold hover:underline hover-gold"><i class="fab fa-github mr-2"></i>View GitHub</a>
+					</div>
+				</div>
+				
+				<!-- Project 3 -->
+				<div class="project-card bg-gray-900 rounded-lg overflow-hidden shadow-lg border border-gray-700">
+					<video src="DVR1.mp4" 
+						   autoplay muted loop class="w-full h-48 object-cover">
+						<source src="C:\Portfolio\design_a_thumbnail_image_for_the_topic.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+						 
+					<div class="p-6">
+						<h3 class="text-xl font-bold mb-2 text-white">DVR</h3>
+						<p class="text-gray-300 mb-4">Real-time monitoring of Dahua DVRs via Easy4IPCloud, with a FastAPI backend and a static web UI. The app reads an Excel workbook of devices, periodically checks their online status through Dahua's cloud, exposes a REST API, and serves a simple dashboard.</p>
+						<div class="flex flex-wrap gap-2 mb-4">
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Pyhton</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">RestAPI</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Pandas</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">HTML-CSS</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">FastAPI</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Cryptography</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Openpyxl</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">Uvicorn</span>
+							<span class="gold-bg text-black text-xs px-2 py-1 rounded font-semibold">xmltodict</span>
+						</div>
+						<a href="https://github.com/akash247777/DVR" class="text-white font-semibold hover:underline hover-gold"><i class="fab fa-github mr-2"></i>View GitHub</a>
+					</div>
+				</div>
+			</div>
+			<div class="text-center mt-12">
+				<a href="#" class="inline-block border-2 border-white px-6 py-3 rounded-full font-semibold hover:bg-white hover:text-black transition hover-gold-border">View All Projects</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact Section -->
+	<section id="contact" class="py-20 bg-black text-white">
+		<div class="container mx-auto px-6">
+			<h2 class="text-4xl font-bold text-center mb-16 gold-text">GET IN TOUCH</h2>
+			<div class="flex flex-col md:flex-row gap-10">
+				<div class="md:w-1/2">
+					<h3 class="text-2xl font-semibold mb-6 gold-text">Contact Information</h3>
+					<p class="mb-8 text-white">Feel free to reach out to me for any questions or opportunities. I'll get back to you as soon as possible.</p>
+					
+					<div class="space-y-6">
+						<div class="flex items-start">
+							<i class="fas fa-envelope text-white text-xl mt-1 mr-4"></i>
+							<div>
+								<h4 class="font-semibold">Email</h4>
+								<p class="text-gray-300">akashsg247@gmail.com</p>
+							</div>
+						</div>
+						<div class="flex items-start">
+							<i class="fas fa-phone text-white text-xl mt-1 mr-4"></i>
+							<div>
+								<h4 class="font-semibold">Phone</h4>
+								<p class="text-gray-300">+91 8618041675</p>
+							</div>
+						</div>
+						<div class="flex items-start">
+							<i class="fas fa-map-marker-alt text-white text-xl mt-1 mr-4"></i>
+							<div>
+								<h4 class="font-semibold">Location</h4>
+								<p class="text-gray-300">Bengaluru, Karnataka, India</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="md:w-1/2">
+					<form class="space-y-6">
+						<div>
+							<label for="name" class="block mb-2 font-medium">Your Name</label>
+							<input type="text" id="name" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded focus:outline-none focus:border-gold focus:border-2 text-white">
+						</div>
+						<div>
+							<label for="email" class="block mb-2 font-medium">Your Email</label>
+							<input type="email" id="email" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded focus:outline-none focus:border-gold focus:border-2 text-white">
+						</div>
+						<div>
+							<label for="subject" class="block mb-2 font-medium">Subject</label>
+							<input type="text" id="subject" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded focus:outline-none focus:border-gold focus:border-2 text-white">
+						</div>
+						<div>
+							<label for="message" class="block mb-2 font-medium">Message</label>
+							<textarea id="message" rows="4" class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded focus:outline-none focus:border-gold focus:border-2 text-white"></textarea>
+						</div>
+						<button type="submit" class="gold-bg text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-600 transition">Send Message</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Links Section -->
+	<section id="links" class="py-20 bg-black">
+		<div class="container mx-auto px-6">
+			<h2 class="text-4xl font-bold text-center mb-16 gold-text">CONNECT WITH ME</h2>
+			<div class="flex justify-center space-x-8">
+				<a href="https://github.com/akash247777/" class="text-white hover:text-gray-300 transition hover-gold">
+					<i class="fab fa-github text-4xl"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/akashsgnie" class="text-white hover:text-gray-300 transition hover-gold">
+					<i class="fab fa-linkedin text-4xl"></i>
+				</a>
+				<a href="https://x.com/Akashsg247" class="text-white hover:text-gray-300 transition hover-gold">
+					<i class="fab fa-twitter text-4xl"></i>
+				</a>
+				<a href="https://leetcode.com/u/Akashsgise" class="text-white hover:text-gray-300 transition hover-gold">
+					<i class="fas fa-code text-4xl"></i>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="bg-black text-white py-10">
+		<div class="container mx-auto px-6 text-center">
+			<p>&copy; 2025 Akash S G. All rights reserved.</p>
+			<div class="mt-4">
+				<a href="#" class="text-sm text-gray-400 hover:text-white mx-2 hover-gold">Privacy Policy</a>
+				<a href="#" class="text-sm text-gray-400 hover:text-white mx-2 hover-gold">Terms of Service</a>
+				<a href="#" class="text-sm text-gray-400 hover:text-white mx-2 hover-gold">Sitemap</a>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		// Mobile menu toggle
+		document.getElementById('menu-toggle').addEventListener('click', function() {
+			const menu = document.getElementById('mobile-menu');
+			menu.classList.toggle('hidden');
+		});
+
+		// Smooth scrolling for navigation links
+		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function(e) {
+				e.preventDefault();
+				
+				const targetId = this.getAttribute('href');
+				const targetElement = document.querySelector(targetId);
+				
+				if (targetElement) {
+					window.scrollTo({
+						top: targetElement.offsetTop - 80,
+						behavior: 'smooth'
+					});
+					
+					// Close mobile menu if open
+					const mobileMenu = document.getElementById('mobile-menu');
+					if (!mobileMenu.classList.contains('hidden')) {
+						mobileMenu.classList.add('hidden');
+					}
+				}
+			});
+		});
+
+		// Typing animation function
+		function typeWriter(element, text, speed, callback) {
+			let i = 0;
+			element.innerHTML = '';
+			element.style.opacity = '1';
+			
+			function type() {
+				if (i < text.length) {
+					element.innerHTML += text.charAt(i);
+					i++;
+					setTimeout(type, speed);
+				} else {
+					// Remove cursor after typing is complete
+					setTimeout(() => {
+						element.style.borderRight = 'none';
+						// Add revealing light effect after typing completes
+						element.classList.add('revealing-light-active');
+						if (callback) callback();
+					}, 1000);
+				}
+			}
+			type();
+		}
+
+		// Initialize animations when page loads
+		window.addEventListener('DOMContentLoaded', () => {
+			// Start typing animations
+			const mainTitle = document.getElementById('main-title');
+			const subtitle = document.getElementById('subtitle');
+			const heroButtons = document.getElementById('hero-buttons');
+			
+			if (mainTitle && subtitle && heroButtons) {
+				// Type main title first
+				typeWriter(mainTitle, 'AKASH S G', 150, () => {
+					// After main title is done, start subtitle
+					setTimeout(() => {
+						typeWriter(subtitle, 'Professional AI Software Developer', 100, () => {
+							// After subtitle is done, show buttons
+							setTimeout(() => {
+								heroButtons.style.opacity = '1';
+								heroButtons.style.animation = 'fadeIn 1s ease-in-out forwards';
+							}, 500);
+						});
+					}, 500);
+				});
+			}
+		});
+	</script>
+</body>
+</html>
