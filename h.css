@@ -461,7 +461,7 @@ h1 span::after {
 .resume-link {
   display: inline-block;
   color: #800000;
-  font-size: inherit;
+  font-size: 20;
   font-weight: 700;
   text-decoration: none;
   font-family: inherit;
