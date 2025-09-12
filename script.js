@@ -2,7 +2,8 @@
    Purpose: mobile nav + safe contact-form submit (Formspree AJAX).
 */
 
-const RATE_LIMIT_MS = 24 * 60 * 60 * 1000; // 1 day
+const MAX_MESSAGES_PER_DAY = 5;
+const MESSAGE_STORAGE_KEY = 'messageDataV1';
 
 // --- CONFIG
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xkgvejwq';
@@ -23,6 +24,26 @@ function showMessage(text, type = 'success') {
       msgDiv.style.display = 'none';
     }, 300);
   }, 5000);
+}
+
+/* Helpers for message data in localStorage */
+function readMessageData() {
+  try {
+    const raw = localStorage.getItem(MESSAGE_STORAGE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch (e) {
+    console.warn('Failed to parse messageData from localStorage', e);
+    return null;
+  }
+}
+
+function writeMessageData(obj) {
+  try {
+    localStorage.setItem(MESSAGE_STORAGE_KEY, JSON.stringify(obj));
+  } catch (e) {
+    console.warn('Failed to write messageData to localStorage', e);
+  }
 }
 
 /* Wait until DOM is ready */
@@ -95,11 +116,23 @@ document.addEventListener('DOMContentLoaded', () => {
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
-    // Rate-limiter: 1 per day
-    const lastSent = parseInt(localStorage.getItem('lastMessageSentTime') || '0', 10);
-    const now = Date.now();
-    if (lastSent && now - lastSent < RATE_LIMIT_MS) {
-      showMessage('You can only send one message per day. Please try again later.', 'error');
+    // --- DAILY RATE LIMIT CHECK (5 per day)
+    const today = new Date().toDateString();
+    let messageData = readMessageData();
+
+    if (!messageData || typeof messageData !== 'object') {
+      messageData = { date: today, count: 0, timestamps: [] };
+    }
+
+    // Reset at new day
+    if (messageData.date !== today) {
+      messageData.date = today;
+      messageData.count = 0;
+      messageData.timestamps = [];
+    }
+
+    if (messageData.count >= MAX_MESSAGES_PER_DAY) {
+      showMessage(`You can only send ${MAX_MESSAGES_PER_DAY} messages per day. Please try again tomorrow.`, 'error');
       return;
     }
 
@@ -130,9 +163,24 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       if (res.ok) {
-        showMessage('Message sent successfully! Thank you.', 'success');
+        // Only increment the daily count AFTER successful send
+        messageData.count = (messageData.count || 0) + 1;
+        const now = Date.now();
+        messageData.timestamps = messageData.timestamps || [];
+        messageData.timestamps.push(now);
+        // Keep only last 20 message timestamps
+        if (messageData.timestamps.length > 20) messageData.timestamps.shift();
+        writeMessageData(messageData);
+
+        // success UI
+        const remaining = Math.max(0, MAX_MESSAGES_PER_DAY - messageData.count);
+        if (remaining > 0) {
+          showMessage(`Message sent successfully! You have ${remaining} message(s) left today.`, 'success');
+        } else {
+          showMessage('Message sent successfully! You have reached your daily limit.', 'success');
+        }
+
         form.reset();
-        localStorage.setItem('lastMessageSentTime', now.toString());
       } else {
         // try to get JSON error body
         let errText = '';
