@@ -468,20 +468,21 @@ h1 span::after {
 }
 
 .about-text {
-  flex: 1 1 900px;
+  flex: 1 1;
   max-width: 900px;
   text-align: center;
   color: #800000;
 }
 
 .about-text p {
-  margin-bottom: 20px;
   color: #000000;
   font-size: 15px;
 }
 
 .skills {
-  margin-top: 60px;
+  flex: 1 1 420px;       /* allows the skills area to take appropriate space */
+  max-width: 1200px;
+  width: 100%;
 }
 
 .skills h4 {
@@ -523,7 +524,8 @@ h1 span::after {
 .resume-wrap {
   width: 100%;
   text-align: left;
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .resume-link {
   display: inline-block;
@@ -1052,8 +1054,11 @@ footer {
 /* Styling for everything within the "skill-containers" class */
 
 .skill-category {
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    padding: 14px 16px;
     margin-bottom: 30px;
-    padding: 20px;
     background-color: rgba(26, 26, 26, 0.8);
     border-radius: 8px;
     border: 1px solid rgba(108, 99, 255, 0.2);
