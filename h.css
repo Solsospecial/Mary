@@ -54,12 +54,6 @@ header.scrolled {
   background-color: rgba(15, 15, 15, 0.98);
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .logo {
   font-size: 24px;
   font-weight: 700;
@@ -100,9 +94,19 @@ nav {
   width: 100%;
 }
 
+/* ---------- NAV (desktop) ---------- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* desktop nav links */
 .nav-links {
   display: flex;
   list-style: none;
+  align-items: center;
+  gap: 0;              
 }
 
 .nav-links li {
@@ -117,6 +121,9 @@ nav {
   transition: all 0.3s ease;
   position: relative;
   padding: 5px 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .nav-links a::after {
@@ -138,6 +145,67 @@ nav {
   width: 100%;
 }
 
+/* hamburger button (desktop hidden) */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--light);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* ---------- MOBILE (<=768px): hide nav by default, show via .open ---------- */
+@media (max-width: 768px) {
+  /* show the hamburger button */
+  .nav-toggle {
+    display: block;
+  }
+
+  /* hide the desktop-style nav by default on mobile */
+  .nav-links {
+    display: none;             
+    position: fixed;
+    top: 64px;                   
+    right: 12px;
+    width: calc(100% - 24px);
+    max-width: 360px;
+    background: rgba(15,15,15,0.98);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    flex-direction: column;
+    padding: 16px;
+    gap: 12px;
+    border-radius: 8px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+    z-index: 1001;
+    transition: transform 240ms ease, opacity 240ms ease;
+    transform-origin: top right;
+    opacity: 0;
+    transform: scale(0.98) translateY(-6px);
+  }
+
+  /* visible state */
+  .nav-links.open {
+    display: flex;
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+
+  /* mobile list spacing */
+  .nav-links li {
+    margin-left: 0;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+    padding: 10px 8px;
+  }
+  
+  h1 { font-size: 36px; }
+  .section-title h2 { font-size: 28px; }
+  .hero-image { width: 250px; height: 250px; }
+}
  
 .hero {
   height: 100vh;
@@ -841,25 +909,6 @@ footer .social-links a:hover {
   }
 }
 
-@media (max-width: 768px) {
-  .nav-links {
-	display: none;
-  }
-
-  h1 {
-	font-size: 36px;
-  }
-
-  .section-title h2 {
-	font-size: 28px;
-  }
-
-  .hero-image {
-	width: 250px;
-	height: 250px;
-  }
-}
-
 .form-message {
   margin: 15px 0;
   padding: 12px 20px;
@@ -930,6 +979,7 @@ footer {
 }
 
 /* ---------------------------------------------- */
+
 /* All styling for "My Skills" section */
 
 .skill-category {
@@ -956,4 +1006,15 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+/* ---------------------------------------------- */
+
+/* Global anchor offset + smooth scroll */
+section {
+  scroll-margin-top: 90px;  /* adjust if your fixed header is taller/shorter */
+}
+
+html {
+  scroll-behavior: smooth;  /* enables smooth animated scrolling */
 }
