@@ -476,7 +476,8 @@ h1 span::after {
 
 .about-text p {
   color: #000000;
-  font-size: 15px;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .skills {
@@ -486,9 +487,11 @@ h1 span::after {
 }
 
 .skills h4 {
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 25px;
   font-size: 24px;
   color: #800000;
+  text-align: left;
 }
 
 .skill-containers {
@@ -525,7 +528,7 @@ h1 span::after {
 .resume-wrap {
   width: 100%;
   text-align: left;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 .resume-link {
