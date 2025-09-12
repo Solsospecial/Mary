@@ -642,21 +642,61 @@ h1 span::after {
   font-size: 12px;
 }
 
+.project-demo {
+  display: inline-flex;
+  align-items: center;
+  color: #560591;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  position: relative;
+}
+		
+.project-demo i {
+  margin-left: 4px;
+  transition: transform 0.3s ease;
+  font-size: 12px;
+}
+		
+.project-demo::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary);
+  transition: width 0.3s ease;
+}
+		
+.project-demo:hover {
+  color: var(--primary-dark);
+}
+		
+.project-demo:hover i {
+  transform: translateX(4px);
+}
+		
+.project-demo:hover::after {
+  width: 100%;
+}
+
 .project-link {
   display: inline-flex;
   align-items: center;
   color: var(--primary);
   text-decoration: none;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 700;
   transition: all 0.3s ease;
   position: relative;
 }
 		
 .project-link i {
-  margin-left: 5px;
+  margin-left: 4px;
   transition: transform 0.3s ease;
-  font-size: 14px;
+  font-size: 12px;
 }
 		
 .project-link::after {
