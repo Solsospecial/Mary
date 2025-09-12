@@ -700,7 +700,8 @@ h1 span::after {
   font-weight: 700;
 }
 
-.project-link {
+.project-link,
+.project-link-commerce {
   display: inline-flex;
   align-items: center;
   color: var(--primary);
@@ -716,13 +717,15 @@ h1 span::after {
   background-color: transparent;
 }
 		
-.project-link i {
+.project-link i,
+.project-link-commerce i {
   margin-left: 4px;
   transition: transform 0.3s ease;
   font-size: 12px;
 }
 		
-.project-link::after {
+.project-link::after,
+.project-link-commerce::after {
   content: '';
   position: absolute;
   bottom: -2px;
@@ -733,18 +736,21 @@ h1 span::after {
   transition: width 0.3s ease;
 }
 		
-.project-link:hover {
+.project-link:hover,
+.project-link-commerce:hover {
   background-color: var(--primary);
   color: #121212;
   border: 2px solid #121212;
   font-weight: 900;
 }
 		
-.project-link:hover i {
+.project-link:hover i,
+.project-link-commerce:hover i {
   transform: translateX(4px);
 }
 		
-.project-link:hover::after {
+.project-link:hover::after,
+.project-link-commerce:hover::after {
   width: 100%;
   font-weight: 700;
 }
