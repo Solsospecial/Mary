@@ -461,18 +461,23 @@ h1 span::after {
 
 .about-content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about-text {
-  max-width: 600px;
+  flex: 1 1 900px;
+  max-width: 900px;
+  text-align: center;
   color: #800000;
 }
 
 .about-text p {
   margin-bottom: 20px;
   color: #000000;
+  font-size: 15px;
 }
 
 .skills {
