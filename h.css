@@ -636,6 +636,21 @@ h1 span::after {
   font-size: 12px;
 }
 
+/* Project actions: demo (left) and link (right) */
+.project-actions {
+  display: flex;
+  justify-content: space-between; /* demo at left, link at right */
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: nowrap; /* keep both on same line when possible */
+}
+
+/* avoid anchors wrapping text */
+.project-actions a {
+  white-space: nowrap;
+}
+
 .project-demo {
   display: inline-flex;
   align-items: center;
