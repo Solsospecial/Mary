@@ -523,13 +523,13 @@ h1 span::after {
 .resume-link {
   display: inline-block;
   color: #800000;
-  font-size: 20;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 900;
   text-decoration: none;
   font-family: inherit;
-  padding: 14px 24px;   /* pill shape starts */
+  padding: 10px 26px;
   border: 2px solid #800000;
-  border-radius: 9999px;   /* pill shape */
+  border-radius: 9999px;
   background-color: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -641,10 +641,15 @@ h1 span::after {
   align-items: center;
   color: #560591;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 9px;
   font-weight: 700;
   transition: all 0.3s ease;
   position: relative;
+  cursor: pointer;
+  padding: 2px 5px;
+  border: 2px solid #560591;
+  border-radius: 9999px;
+  background-color: transparent;
 }
 		
 .project-demo i {
@@ -660,12 +665,15 @@ h1 span::after {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--primary);
+  background-color: transparent;
   transition: width 0.3s ease;
 }
 		
 .project-demo:hover {
-  color: var(--primary-dark);
+  background-color: #560591;
+  color: #121212;
+  border: 2px solid #121212;
+  font-weight: 900;
 }
 		
 .project-demo:hover i {
@@ -674,6 +682,7 @@ h1 span::after {
 		
 .project-demo:hover::after {
   width: 100%;
+  font-weight: 700;
 }
 
 .project-link {
@@ -681,10 +690,15 @@ h1 span::after {
   align-items: center;
   color: var(--primary);
   text-decoration: none;
-  font-size: 12px;
+  font-size: 8px;
   font-weight: 700;
   transition: all 0.3s ease;
   position: relative;
+  cursor: pointer;
+  padding: 2px 5px;
+  border: 2px solid var(--primary);
+  border-radius: 9999px;
+  background-color: transparent;
 }
 		
 .project-link i {
@@ -700,12 +714,15 @@ h1 span::after {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--primary);
+  background-color: transparent;
   transition: width 0.3s ease;
 }
 		
 .project-link:hover {
-  color: var(--primary-dark);
+  background-color: var(--primary);
+  color: #121212;
+  border: 2px solid #121212;
+  font-weight: 900;
 }
 		
 .project-link:hover i {
@@ -714,6 +731,7 @@ h1 span::after {
 		
 .project-link:hover::after {
   width: 100%;
+  font-weight: 700;
 }
 
 /* Contact Section */
