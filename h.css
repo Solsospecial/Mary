@@ -468,7 +468,7 @@ h1 span::after {
 }
 
 .about-text {
-  flex: 1 1;
+  flex: 1 1 900px;
   max-width: 900px;
   text-align: center;
   color: #800000;
@@ -492,9 +492,10 @@ h1 span::after {
 }
 
 .skill-containers {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  justify-items: center;
 }
 
 .skill-tag {
@@ -961,9 +962,9 @@ footer .social-links a:hover {
 
 @media (max-width: 992px) {
   .hero-content,
-  .about-content {
-	flex-direction: column;
-	text-align: center;
+  .about-content { flex-direction: column; gap: 28px; }
+  .skills { max-width: 900px; }
+  .skill-group { justify-content: center; }
   }
 
   .hero-text {
