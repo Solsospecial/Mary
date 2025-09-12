@@ -1012,9 +1012,13 @@ footer {
 
 /* Global anchor offset + smooth scroll */
 section {
-  scroll-margin-top: 90px;  /* adjust if your fixed header is taller/shorter */
+  scroll-margin-top: 90px;
+}
+
+#skills, #resume {
+  scroll-margin-top: 90px; /* same as section */
 }
 
 html {
-  scroll-behavior: smooth;  /* enables smooth animated scrolling */
+  scroll-behavior: smooth;  /* smooth animated scrolling */
 }
