@@ -542,14 +542,6 @@ h1 span::after {
   border: 2px solid #121212;
 }
 
-.resume-link:focus {
-  outline: none;
-  background-color: transparent;
-  color: #800000;
-  border: 2px solid #800000;
-  transform: translateY(0);
-}
-
 /* Projects Section */
 .projects {
   padding: 100px 0;
