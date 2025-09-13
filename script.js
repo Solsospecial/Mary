@@ -1,5 +1,6 @@
 /* script.js
-   Purpose: mobile nav + safe contact-form submit (Formspree AJAX).
+   Purpose: mobile nav + safe contact-form submit (Formspree AJAX)
+   + global scroll-triggered fade-in animation (IntersectionObserver).
 */
 
 const MAX_MESSAGES_PER_DAY = 5;
@@ -193,5 +194,50 @@ document.addEventListener('DOMContentLoaded', () => {
       showMessage('Network error while sending the message.', 'error');
     }
   });
+
+
+  /* === START: FADE-IN ON SCROLL === */
+
+  (function setupScrollFadeIns() {
+    const selector = [
+      'section',
+      '.project-card',
+      '.skill-category',
+      '.project-info',
+      '.hero-text',
+      '.project-image',
+      '.contact-info',
+      '.contact-form',
+      '.resume-wrap',
+      '.btn'
+    ].join(',');
+
+    const ioOptions = {
+      root: null,
+      rootMargin: '0px 0px -10% 0px',
+      threshold: 0.12
+    };
+
+    const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in-active');
+          entry.target.classList.remove('fade-in-init');
+          // animate once only
+          obs.unobserve(entry.target);
+        }
+      });
+    }, ioOptions);
+
+    document.querySelectorAll(selector).forEach(el => {
+      // skip if the element is small or already visible (optional safety)
+      if (el.offsetParent === null) return; // hidden elements (display:none) ignored
+      el.classList.add('fade-in-init'); // ensure starting hidden state
+      observer.observe(el);
+    });
+  })();
+
+  /* === END: FADE-IN ON SCROLL === */
+
 
 });
