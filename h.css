@@ -117,7 +117,7 @@ nav {
   color: var(--light);
   text-decoration: none;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   transition: all 0.3s ease;
   position: relative;
   padding: 5px 0;
@@ -155,8 +155,8 @@ nav {
   cursor: pointer;
 }
 
-/* ---------- MOBILE (<=992px): hide nav by default, show via .open ---------- */
-@media (max-width: 992px) {
+/* ---------- SMALLER SCREENS (<=975px): hide nav by default, show via .open ---------- */
+@media (max-width: 975px) {
   /* show the hamburger button */
   .nav-toggle {
     display: block;
@@ -268,6 +268,15 @@ nav {
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in-init {
+  opacity: 0;
+  transform: translateY(12px); /* slightly smaller shift than hero-text */
+}
+
+.fade-in-active {
+  animation: fadeIn 700ms ease-out both;
 }
 
 h1 {
@@ -963,12 +972,11 @@ footer .social-links a:hover {
   color: #6c63ff;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 975px) {
   .hero-content,
   .about-content { flex-direction: column; gap: 28px; }
   .skills { max-width: 900px; }
   .skill-group { justify-content: center; }
-  }
 
   .hero-text {
 	padding-right: 0;
