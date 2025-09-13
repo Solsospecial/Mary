@@ -155,8 +155,8 @@ nav {
   cursor: pointer;
 }
 
-/* ---------- MOBILE (<=768px): hide nav by default, show via .open ---------- */
-@media (max-width: 768px) {
+/* ---------- MOBILE (<=992px): hide nav by default, show via .open ---------- */
+@media (max-width: 992px) {
   /* show the hamburger button */
   .nav-toggle {
     display: block;
