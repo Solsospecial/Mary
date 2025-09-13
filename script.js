@@ -7,7 +7,7 @@ const MAX_MESSAGES_PER_DAY = 5;
 const MESSAGE_STORAGE_KEY = 'messageDataV1';
 
 // --- CONFIG
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xkgvejwq';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xeolddpo';
 
 /* small helper to show messages in #formMessage div */
 function showMessage(text, type = 'success') {
