@@ -7,9 +7,9 @@ const MAX_MESSAGES_PER_DAY = 5;
 const MESSAGE_STORAGE_KEY = 'messageDataV1';
 
 // --- CONFIG
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xeolddpo';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/xkgvejwq';
 
-/* helper to show messages in #formMessage div */
+/* small helper to show messages in #formMessage div */
 function showMessage(text, type = 'success') {
   const msgDiv = document.getElementById('formMessage');
   if (!msgDiv) return;
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Header class
+  // Header "scrolled" class
   const header = document.querySelector('header');
   const onScroll = () => {
     if (!header) return;
@@ -229,8 +229,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.querySelectorAll(selector).forEach(el => {
       // skip if the element is small or already visible
-      if (el.offsetParent === null) return;
-      el.classList.add('fade-in-init'); // ensure starting hidden state
+      if (el.offsetParent === null) return; // hidden elements ignored
+      el.classList.add('fade-in-init');
       observer.observe(el);
     });
   })();
